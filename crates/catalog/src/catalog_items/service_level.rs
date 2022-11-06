@@ -67,18 +67,14 @@ impl str::FromStr for ServiceLevel {
 
         let service_level;
         if s.contains("/") {
-            let tokens: Vec<&str> =
-                s.split_terminator("/").sorted().dedup().collect();
+            let tokens: Vec<&str> = s.split_terminator("/").sorted().dedup().collect();
 
             if tokens.len() == 2 {
                 let first = tokens[0];
                 let second = tokens[1];
-                if first == ServiceLevel::FIRST_CLASS
-                    && second == ServiceLevel::SECOND_CLASS
-                {
+                if first == ServiceLevel::FIRST_CLASS && second == ServiceLevel::SECOND_CLASS {
                     service_level = ServiceLevel::FirstAndSecondClass;
-                } else if first == ServiceLevel::SECOND_CLASS
-                    && second == ServiceLevel::THIRD_CLASS
+                } else if first == ServiceLevel::SECOND_CLASS && second == ServiceLevel::THIRD_CLASS
                 {
                     service_level = ServiceLevel::SecondAndThirdClass;
                 } else {
@@ -98,9 +94,7 @@ impl str::FromStr for ServiceLevel {
                     return Err("Invalid mixed service level");
                 }
             } else {
-                return Err(
-                    "Invalid mixed service level: max number of values is 3",
-                );
+                return Err("Invalid mixed service level: max number of values is 3");
             }
         } else {
             service_level = match s {
@@ -157,10 +151,7 @@ mod tests {
         #[test]
         fn it_should_display_service_level_values() {
             assert_eq!("1cl", format!("{}", ServiceLevel::FirstClass));
-            assert_eq!(
-                "1cl/2cl",
-                format!("{}", ServiceLevel::FirstAndSecondClass)
-            );
+            assert_eq!("1cl/2cl", format!("{}", ServiceLevel::FirstAndSecondClass));
         }
     }
 }

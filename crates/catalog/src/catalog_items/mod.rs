@@ -7,4 +7,5 @@ pub mod item_number;
 pub mod length_over_buffer;
 pub mod power_method;
 pub mod rolling_stock;
+pub mod rolling_stock_id;
 pub mod service_level;

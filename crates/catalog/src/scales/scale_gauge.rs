@@ -8,11 +8,7 @@ pub struct Gauge {
 }
 
 impl Gauge {
-    pub fn new(
-        track_gauge: TrackGauge,
-        millimeters: Decimal,
-        inches: Decimal,
-    ) -> Self {
+    pub fn new(track_gauge: TrackGauge, millimeters: Decimal, inches: Decimal) -> Self {
         Gauge {
             track_gauge,
             millimeters,
@@ -42,7 +38,7 @@ pub enum TrackGauge {
     /// Very narrow gauges of under 2 feet (610 mm) were used for some industrial railways in space-restricted
     /// environments such as mines or farms. The French company Decauville developed 500 mm (19+3⁄4 in) and
     /// 400 mm (15+3⁄4 in) tracks, mainly for mines; Heywood developed 15 in (381 mm) gauge for estate railways.
-    /// The most common minimum-gauges were 15 in (381 mm),[15] 400 mm (15+3⁄4 in), 16 in (406 mm), 18 in (457 mm),
+    /// The most common minimum-gauges were 15 in (381 mm), 400 mm (15+3⁄4 in), 16 in (406 mm), 18 in (457 mm),
     /// 500 mm (19+3⁄4 in) or 20 in (508 mm).
     Minimum,
 

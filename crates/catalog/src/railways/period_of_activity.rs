@@ -28,10 +28,7 @@ impl PeriodOfActivity {
         }
     }
 
-    pub fn inactive_railway(
-        operating_since: Date,
-        operating_until: Date,
-    ) -> Self {
+    pub fn inactive_railway(operating_since: Date, operating_until: Date) -> Self {
         PeriodOfActivity {
             operating_since,
             operating_until: Some(operating_until),

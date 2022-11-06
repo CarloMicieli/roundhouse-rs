@@ -1,6 +1,5 @@
 use crate::catalog_items::category::{
-    ElectricMultipleUnitType, FreightCarType, LocomotiveType, PassengerCarType,
-    RailcarType,
+    ElectricMultipleUnitType, FreightCarType, LocomotiveType, PassengerCarType, RailcarType,
 };
 use crate::catalog_items::control::{Control, DccInterface};
 use crate::catalog_items::epoch::Epoch;

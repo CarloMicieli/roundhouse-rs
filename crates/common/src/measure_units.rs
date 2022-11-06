@@ -62,34 +62,26 @@ impl MeasureUnit {
 
     pub fn to(&self, other: MeasureUnit) -> MeasureUnitConverter {
         match (self, other) {
-            (MeasureUnit::Inches, MeasureUnit::Millimeters) => {
-                MeasureUnitConverter::new(
-                    MeasureUnit::Inches,
-                    MeasureUnit::Millimeters,
-                    MeasureUnit::INCHES_TO_MILLIMETERS,
-                )
-            }
-            (MeasureUnit::Millimeters, MeasureUnit::Inches) => {
-                MeasureUnitConverter::new(
-                    MeasureUnit::Millimeters,
-                    MeasureUnit::Inches,
-                    MeasureUnit::MILLIMETERS_TO_INCHES,
-                )
-            }
-            (MeasureUnit::Kilometers, MeasureUnit::Miles) => {
-                MeasureUnitConverter::new(
-                    MeasureUnit::Kilometers,
-                    MeasureUnit::Miles,
-                    MeasureUnit::KILOMETERS_TO_MILES,
-                )
-            }
-            (MeasureUnit::Miles, MeasureUnit::Kilometers) => {
-                MeasureUnitConverter::new(
-                    MeasureUnit::Miles,
-                    MeasureUnit::Kilometers,
-                    MeasureUnit::MILES_TO_KILOMETERS,
-                )
-            }
+            (MeasureUnit::Inches, MeasureUnit::Millimeters) => MeasureUnitConverter::new(
+                MeasureUnit::Inches,
+                MeasureUnit::Millimeters,
+                MeasureUnit::INCHES_TO_MILLIMETERS,
+            ),
+            (MeasureUnit::Millimeters, MeasureUnit::Inches) => MeasureUnitConverter::new(
+                MeasureUnit::Millimeters,
+                MeasureUnit::Inches,
+                MeasureUnit::MILLIMETERS_TO_INCHES,
+            ),
+            (MeasureUnit::Kilometers, MeasureUnit::Miles) => MeasureUnitConverter::new(
+                MeasureUnit::Kilometers,
+                MeasureUnit::Miles,
+                MeasureUnit::KILOMETERS_TO_MILES,
+            ),
+            (MeasureUnit::Miles, MeasureUnit::Kilometers) => MeasureUnitConverter::new(
+                MeasureUnit::Miles,
+                MeasureUnit::Kilometers,
+                MeasureUnit::MILES_TO_KILOMETERS,
+            ),
             (MeasureUnit::Inches, MeasureUnit::Inches) => {
                 MeasureUnitConverter::same_unit(MeasureUnit::Inches)
             }
