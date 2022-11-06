@@ -6,8 +6,10 @@ members = [
 
 [workspace.package]
 version = "0.1.0"
-authors = ["Carlo Micieli"]
-description = "A short description of my package"
+edition = "2021"
+authors = ["CarloMicieli <piovarolo@gmail.com>"]
+license = "MIT"
+rust-version = "1.64"
 
 [workspace.dependencies]
 anyhow = "1.0.66"
