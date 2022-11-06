@@ -32,7 +32,7 @@ impl PeriodOfActivity {
         PeriodOfActivity {
             operating_since,
             operating_until: Some(operating_until),
-            status: RailwayStatus::Active,
+            status: RailwayStatus::Inactive,
         }
     }
 
@@ -51,12 +51,12 @@ impl PeriodOfActivity {
 
 #[derive(Debug, Eq, PartialEq)]
 pub enum Date {
-    Year(u8),
+    Year(u32),
     ExactDay(NaiveDate),
 }
 
 impl Date {
-    pub fn with_year(year: u8) -> Self {
+    pub fn with_year(year: u32) -> Self {
         Date::Year(year)
     }
 
@@ -77,5 +77,24 @@ mod test {
 
     mod periods_of_activity {
         use super::*;
+        use pretty_assertions::assert_eq;
+
+        #[test]
+        fn it_should_create_new_active_periods_of_activity() {
+            let active = PeriodOfActivity::active_railway(Date::with_year(1900));
+            assert_eq!(RailwayStatus::Active, active.status());
+            assert_eq!(Date::with_year(1900), active.operating_since);
+            assert_eq!(None, active.operating_until());
+        }
+
+        #[test]
+        fn it_should_create_new_inactive_periods_of_activity() {
+            let end_date = NaiveDate::from_ymd(2000, 12, 24);
+            let active =
+                PeriodOfActivity::inactive_railway(Date::with_year(1900), Date::ExactDay(end_date));
+            assert_eq!(RailwayStatus::Inactive, active.status());
+            assert_eq!(&Date::with_year(1900), active.operating_since());
+            assert_eq!(Some(&Date::ExactDay(end_date)), active.operating_until());
+        }
     }
 }

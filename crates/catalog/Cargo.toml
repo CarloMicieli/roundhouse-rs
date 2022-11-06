@@ -10,6 +10,7 @@ rust-version.workspace = true
 anyhow = { workspace = true }
 common = { path = "../common" }
 chrono = { workspace = true }
+derive_more = { workspace = true }
 isocountry = { workspace = true }
 itertools = { workspace = true }
 rust_decimal = { workspace = true }
