@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '51151'
+description: Start set, Gr. 875 con cabina chiusa + 2 carri FF a 2 assi FS Italia, trasformatore, binari
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: '875'
+  roadNumber: 875 038
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

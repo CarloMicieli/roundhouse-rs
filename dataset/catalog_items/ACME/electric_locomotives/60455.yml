@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60455'
+description: Castano/isabella, moderabile, pant. 42LR, senza gocciolatoio, dep. Genova Br. (69455 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 186
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

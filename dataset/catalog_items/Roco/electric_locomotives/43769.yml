@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '43769'
+description: CSD Ferrovie Cecoslovacche, verde telaio nero, ex E626 2a serie, compressore meccanico
+powerMethod: DC
+scale: H0
+deliveryDate: '2001'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E666 001
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

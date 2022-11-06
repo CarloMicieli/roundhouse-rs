@@ -1,0 +1,23 @@
+name: SNCB
+registeredCompanyName: Société nationale des chemins de fer belges
+country: be
+periodOfActivity:
+  operatingSince: 1926
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 3536
+  miles:
+contactInfo:
+  websiteUrl: https://www.belgiantrain.be
+social:
+  facebook: SNCB
+  instagram: sncb.be
+  linkedin: nmbs-sncb
+  twitter: sncb
+  youtube: SNCBtv
+headquarters: Bruxelles
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2767D
+description: Grigio/verde, fascia rossa frontale, FS Trenitalia, antenne e captatori
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 177
+  series: ''
+  railway: FS
+  epoch: Vb/VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: grigio/verde
+  control: DCC
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

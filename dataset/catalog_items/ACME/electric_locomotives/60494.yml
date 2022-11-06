@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60494'
+description: Livrea XMPR2, logo FS Trenitalia verde/rosso, vomere rosso, condotte alte, dep. Udine
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 056
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

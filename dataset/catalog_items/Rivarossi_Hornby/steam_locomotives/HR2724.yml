@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2724
+description: Fanali a petrolio, casse batterie, bielle e volantino rosso, per treni storici (HR2724D DCC)
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: '940'
+  roadNumber: 940 022
+  series: ''
+  railway: FS?
+  epoch: Vm
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

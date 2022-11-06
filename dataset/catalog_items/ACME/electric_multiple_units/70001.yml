@@ -1,0 +1,97 @@
+brand: ACME
+itemNumber: '70001'
+description: |
+  Treno 48 livrea bianco/verde, logo FS Trenitalia, confezione con 2 E404 (motorizzata + folle) con 2 pantografi monobraccio ATR95 + intermedia 1a classe (carrozza 1) + intermedia 2a classe (carrozza 7).
+  Illuminazione interna montata di serie. Disponibile anche AC70002. Articolo con Decoder DCC già installato.
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 4
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 93 83 7 404 524-4
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 260
+  livery: livrea di origine bianco/verde
+  control: DCC
+  dummy: NO
+  dccInterface: 'MTC_21'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 199 221-3
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea di origine bianco/verde
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 312-9
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea di origine bianco/verde
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 93 83 7 404 527-7
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 260
+  livery: livrea di origine bianco/verde
+  control: DCC_READY
+  dummy: YES
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

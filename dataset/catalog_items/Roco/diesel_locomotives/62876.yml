@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '62876'
+description: Serie 2000, vetri piani, griglia squadrata, fregio verde, senza serranda su una fiancata, dep. Cremona
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 2019
+  series: ''
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

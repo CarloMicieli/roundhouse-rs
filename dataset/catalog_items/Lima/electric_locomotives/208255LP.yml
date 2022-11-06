@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: 208255LP
+description: MDVC beige fasce arancio/viola, tetto argento, deposito di Ancona, dettagli migliorati
+powerMethod: DC
+scale: H0
+deliveryDate: '1991'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 056
+  series: SECONDA SERIE Trasformate Navetta
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

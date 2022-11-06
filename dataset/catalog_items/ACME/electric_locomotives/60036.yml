@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60036'
+description: Versione di origine rosso/grigio, striscianti curvi, marcatura sul vomere
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: E402 A
+  roadNumber: E402 001
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

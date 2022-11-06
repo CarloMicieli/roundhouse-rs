@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '70012'
+description: Carrozza di 2a classe per ETR500 livrea bianco/verde, logo FS Trenitalia (carrozza 9)
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 319-4
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea di origine bianco/verde
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

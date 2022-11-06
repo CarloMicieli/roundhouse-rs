@@ -1,0 +1,50 @@
+brand: Lima
+itemNumber: '208353LP'
+description: |
+ 	Livrea Alitalia bianca fascia verde
+powerMethod: DC
+scale: H0
+deliveryDate: '1993'
+count: 2
+rollingStocks:
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 050
+  series: 
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 601'
+  roadNumber: Le 601 011
+  series: 
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

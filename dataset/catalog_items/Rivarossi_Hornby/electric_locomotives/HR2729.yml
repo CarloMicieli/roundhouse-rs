@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2729
+description: |
+  Locomotiva elettrica E 428 167, doppio coprigiunto orrizzontale su cabine, carrelli saldati tipo AP1110, 
+  tamponi in gomma, dep. Milano Smistamento
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 202
+  series: terza serie semiaerodinamica
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano Smistamento
+  length: 222
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 2

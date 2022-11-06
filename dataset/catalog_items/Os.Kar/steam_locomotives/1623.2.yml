@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1623.2'
+description: Fanali a petrolio, vomere ripiegabile, ruotino a razze
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: '623'
+  roadNumber: 623 014
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

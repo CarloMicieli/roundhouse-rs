@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: 0417
+description: Set EN 'Roma', E444R rosso/grigio + 2 X 2a cl. rosso fegato carenate + letti MU SNCF TEN
+powerMethod: DC
+scale: H0
+deliveryDate: '1999'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 113
+  series: PROTOTIPO
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

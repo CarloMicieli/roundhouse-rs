@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2610
+description: Frenatura reostatica, castano/isabella, carrelli castano, scalette larghe, fanali di origine, pantografi 42U
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 082
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

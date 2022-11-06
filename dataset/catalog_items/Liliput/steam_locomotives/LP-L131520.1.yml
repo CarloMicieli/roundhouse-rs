@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: LP-L131520.1
+description: BR 52 livrea nera, panconi rossi, scritte Deposito Firenze
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: BR 52
+  roadNumber: 52 7592
+  series: ''
+  railway: FS?
+  epoch: IIb
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

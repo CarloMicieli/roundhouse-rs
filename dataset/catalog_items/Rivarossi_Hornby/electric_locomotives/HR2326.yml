@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2326
+description: Castano/isabella, Breda, doppio coprigiunto, citofono 'Perego', vomere castano, dep. Alessandria
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 021
+  series: ''
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Alessandria
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: OS-101.3
+description: Set D443 con modanature + 4 carrozze Corbellini 1951R livrea castano
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: D443
+  roadNumber: D443 1001
+  series: ''
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

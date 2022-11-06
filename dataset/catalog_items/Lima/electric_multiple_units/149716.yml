@@ -1,0 +1,91 @@
+brand: Lima
+itemNumber: '149716'
+description: |
+ 	Set 4 elementi, livrea verde/grigio, 1a serie, finestrini frontali lunghi (art. 208421 + 309659 + 208356)
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 4
+rollingStocks:
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 032
+  series: prima serie
+  railway: FS
+  epoch: IV/V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 601'
+  roadNumber: Le 601 007
+  series: 
+  railway: FS
+  epoch: IV/V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 481'
+  roadNumber: Le 481 004
+  series: 
+  railway: FS
+  epoch: IV/V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 007
+  series: prima serie
+  railway: FS
+  epoch: IV/V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

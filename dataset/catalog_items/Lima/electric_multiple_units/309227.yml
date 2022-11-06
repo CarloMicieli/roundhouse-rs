@@ -1,0 +1,30 @@
+brand: Lima
+itemNumber: '309227'
+description: |
+  Rimorchiata con cucina/ristorante, verde/grigio, finestrini frontali grandi
+powerMethod: DC
+scale: H0
+deliveryDate: '1988'
+count: 1
+rollingStocks:
+- typeName: 'Le 480'
+  roadNumber: Le 480 003
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

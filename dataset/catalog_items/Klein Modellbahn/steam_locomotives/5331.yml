@@ -1,0 +1,29 @@
+brand: Klein Modellbahn
+itemNumber: '5331'
+description: Nera telaio rosso vagone, targhe nere
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: '688'
+  roadNumber: 688 001
+  series: (ex BR 35 ÖBB / 429 K.k.St.B.)
+  railway: FS?
+  epoch: II
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

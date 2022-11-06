@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '72896'
+description: Serie 1000 OM, verde/isabella vetri curvi, griglia tonda, 1 scarico, dep. Catania (72897 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 1033
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

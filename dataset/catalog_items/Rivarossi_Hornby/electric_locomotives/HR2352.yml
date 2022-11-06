@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2352
+description: Verde magnolia/grigio nebbia, navetta, senza modanature, con griglie laterali, dep. Genova Br.
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 136
+  series: seconda serie trasformate Navetta
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Genova Brignole
+  length: 0
+  livery: verde magnolia/grigio nebbia
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

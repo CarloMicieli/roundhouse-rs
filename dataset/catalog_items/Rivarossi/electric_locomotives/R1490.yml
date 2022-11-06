@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: R1490
+description: XMPR tetto verde, fascia blu alta, pantografi 52, deposito Ancona
+powerMethod: DC
+scale: H0
+deliveryDate: '2002'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 232
+  series: Navetta Ricostruite
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

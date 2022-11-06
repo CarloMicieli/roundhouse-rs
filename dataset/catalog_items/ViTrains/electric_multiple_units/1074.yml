@@ -1,0 +1,50 @@
+brand: ViTrains
+itemNumber: '1074'
+description: |
+  Costruz. OM, castano/isabella, pantografi 42 strisciante curvo, motrice + rimorchiata
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 2
+rollingStocks:
+- typeName: 'ALe 840'
+  roadNumber: ALe 840 045
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 325
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: PLUX_22
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 840'
+  roadNumber: Le 840 030 
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 325
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Piko
+itemNumber: '57560'
+description: Nero/rosso vagone, marcatura a biacca, cerchioni bianchi
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: '421'
+  roadNumber: 421 005
+  series: (ex BR 55 DB / G7.1 KPEV)
+  railway: FS?
+  epoch: II
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

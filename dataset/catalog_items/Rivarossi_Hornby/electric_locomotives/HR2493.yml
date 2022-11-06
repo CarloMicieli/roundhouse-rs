@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2493
+description: Castano/isabella, compressore meccanico, senza separatore, dep. Bologna C.
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E326
+  roadNumber: E326 012
+  series: ''
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Bologna Centrale
+  length: 0
+  livery: castano/isabella
+  control: DCC_SOUND
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

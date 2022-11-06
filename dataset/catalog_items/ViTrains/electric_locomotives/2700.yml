@@ -1,0 +1,29 @@
+brand: ViTrains
+itemNumber: '2700'
+description: Castano/isabella, separatore di Arbela, RS, scritte bianche, dep. Bologna C.le, museale, DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E326
+  roadNumber: E326 004
+  series: ''
+  railway: FS?
+  epoch: Vm
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2003 (1)
+description: Castano/isabella/rosso, 3 fanali, corrimani sul tetto, dep. Taranto, fanali corretti
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: D341
+  roadNumber: D341 5001
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

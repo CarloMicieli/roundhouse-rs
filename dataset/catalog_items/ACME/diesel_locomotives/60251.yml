@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60251'
+description: Verde fasce gialle, telaio nero, corrimani con battipiede, dep. Ancona
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: D143
+  roadNumber: D143 3002
+  series: ''
+  railway: FS
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: Ancona
+  length: 153
+  livery: verde con fasce gialle
+  control: DCC_READY
+  dccInterface: NEM_651
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

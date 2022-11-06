@@ -1,0 +1,29 @@
+brand: Piko
+itemNumber: '52440'
+description: Verde fasce gialle, telaio e corrimani bruno, dep. Padova (52446 DCC, 52442 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: D141
+  roadNumber: D141 1019
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

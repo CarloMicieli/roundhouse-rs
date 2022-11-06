@@ -1,0 +1,51 @@
+brand: ACME
+itemNumber: '70102'
+description: “Frecciarossa” Treno 14, FS Trenitalia 4 livelli di servizio, set intermedia Business Speciale (carrozza 3) + intermedia Standard (carrozza 7), nuovo logo “Frecciarossa”
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 2
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5899 001-2
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5299 408-5
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

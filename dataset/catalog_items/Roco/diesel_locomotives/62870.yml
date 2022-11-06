@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '62870'
+description: Serie 2000, vetri curvi di origine, griglia sul tetto tonda, fregio alluminio, dep. Torino
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 2006
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

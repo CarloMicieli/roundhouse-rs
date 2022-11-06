@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60501'
+description: Stato anni Trenta, respingenti a bovolo, fanali a petrolio, carboniera alta
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: '685'
+  roadNumber: 685 172
+  series: TERZA SERIE
+  railway: FS?
+  epoch: II/IIIa
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

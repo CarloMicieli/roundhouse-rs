@@ -1,0 +1,50 @@
+brand: Rivarossi/Hornby
+itemNumber: 'HR4153'
+description: |
+ 	Rimorchiate Le 601 + Le 481 con bagagliaio, verde/grigio, finestrini frontali grandi
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 2
+rollingStocks:
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 021
+  series: 
+  railway: FS
+  epoch: IVb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 481'
+  roadNumber: Le 481 004
+  series: 
+  railway: FS
+  epoch: IVb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

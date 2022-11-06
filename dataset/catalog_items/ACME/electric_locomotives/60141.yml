@@ -1,0 +1,33 @@
+brand: ACME
+itemNumber: '60141'
+description: |
+  Locomotiva elettrica FS E.645 011 (1a serie) nella livrea castano/isabella, 
+  portelli A.T. bassi, fregio frontale alato, con gocciolatoio, dep. Bussoleno.
+  Nuovi pantografi ACME FS 52/92 con riproduzione del sistema di sollevamento.
+  Edizione limitata e numerata a 600pz.
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 011
+  series: prima serie (ex E646)
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Bussoleno
+  length: 210
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

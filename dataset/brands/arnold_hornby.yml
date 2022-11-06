@@ -1,0 +1,23 @@
+name: Arnold/Hornby
+registeredCompanyName: Arnold model
+groupName: hornby
+description: 
+address:
+  streetAddress: 
+  extendedAddress: 
+  postalCode: 
+  city: 
+  region: 
+  country: 
+contactInfo:
+  email: customerservices.it@hornby.com
+  websiteUrl: https://it.arnoldmodel.com
+  phone:
+social:
+  instragram: hornbyinternational
+  facebook: Arnold.Modelleisenbahnen
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '72326'
+description: Castano/isabella, boccole strisciam., telaio lungo, dep. Roma S.L., pant. 42LR (72327 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 034
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

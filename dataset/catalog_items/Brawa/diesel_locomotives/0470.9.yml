@@ -1,0 +1,29 @@
+brand: Brawa
+itemNumber: '0470.9'
+description: FS livrea verde vagone, panconi rossi, cabina chiusa, finestrino piccolo
+powerMethod: DC
+scale: H0
+deliveryDate: '1990'
+count: 1
+rollingStocks:
+- typeName: '213'
+  roadNumber: 213 914
+  series: Köf II ex DB
+  railway: FS?
+  epoch: III/IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

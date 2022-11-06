@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2636
+description: Cast./isa., fregio alato castano, vomeri giallo/nero, vetri di origine, portelloni alti, dep. Udine
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 105
+  series: serie 100 (ex E646 prototipo)
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

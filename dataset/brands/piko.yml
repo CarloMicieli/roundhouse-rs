@@ -1,0 +1,23 @@
+name: PIKO
+registeredCompanyName: PIKO Spielwaren GmbH
+groupName: 
+description: 
+address:
+  streetAddress: Lutherstraße 30
+  extendedAddress: 
+  postalCode: D-96515
+  city: Sonneberg
+  region: 
+  country: de
+contactInfo:
+  email: info@piko.de
+  websiteUrl: https://www.piko.de
+  phone: 
+social:
+  instragram: piko.modellbahn
+  facebook: PIKO.Modellbahn
+  youtube: pikode
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

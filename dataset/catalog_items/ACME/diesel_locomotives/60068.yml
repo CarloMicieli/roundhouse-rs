@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60068'
+description: |
+  Locomotiva Diesel D.342 4006 delle FS, in livrea castano isabella con modanature, 2 fanali, 
+  corrimani sul tetto, porta frontale.
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 4006
+  series: ANSALDO
+  railway: FS
+  epoch: III/IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: Siena
+  length: 175
+  livery: castano/isabella/rosso
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

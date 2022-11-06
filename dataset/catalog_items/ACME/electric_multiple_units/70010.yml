@@ -1,0 +1,75 @@
+brand: ACME
+itemNumber: '70010'
+description: Confezione con intermedia 1a classe speciale + 2 intermedie 2a classe
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 3
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: ''
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea AV grigio/argento
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: ''
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea AV grigio/argento
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: ''
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea AV grigio/argento
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO    
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60472'
+description: Livrea blu/grigio, senza vomeri, pantografi 52, reostato ridotto, stato 1982
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: E633
+  roadNumber: E633 001
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

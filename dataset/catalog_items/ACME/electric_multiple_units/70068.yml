@@ -1,0 +1,75 @@
+brand: ACME
+itemNumber: '70068'
+description: “Frecciarossa” Treno 14, set 3 intermedie di 2a classe (carrozze 10, 11, 12), logo FS Trenitalia verde/rosso
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 3
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 401-0
+  series: POLITENSIONE 
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 402-8
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 400-2
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

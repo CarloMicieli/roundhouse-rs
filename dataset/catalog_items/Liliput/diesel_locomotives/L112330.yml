@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: L112330
+description: Castano isabella, anni 60, griglia frontale unica (anche con Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: 215 / 218 Badoni
+  roadNumber: 218 001
+  series: ''
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

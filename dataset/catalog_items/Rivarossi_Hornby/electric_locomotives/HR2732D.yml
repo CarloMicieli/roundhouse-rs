@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2732D
+description: Livrea isabella, fregio FS a scudo dipinto, vetri Triplex, dep. Milano Sm.to
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 075
+  series: seconda serie
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano Smistamento
+  length: 0
+  livery: isabella
+  control: DCC
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE20512
+description: Avancorpi IV s., porta metallica, pant. 42LR, vomeri, cerchioni bianchi, dep. GE Riv. (S DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E626 091
+  series: SECONDA SERIE RICOSTRUITA
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,9 @@
+name: H0e
+description:
+ratio: 87
+gauge:
+  millimeters: 9
+  inches: 
+  trackGauge: NARROW
+standards:
+  - NEM

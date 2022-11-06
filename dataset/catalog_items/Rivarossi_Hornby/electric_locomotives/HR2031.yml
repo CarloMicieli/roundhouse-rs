@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2031
+description: Livrea XMPR FS Trenitalia, scudo frontale in verde originale, OML Napoli Sm.
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 133
+  series: ''
+  railway: FS
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

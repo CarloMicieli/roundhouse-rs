@@ -1,0 +1,51 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2875
+description: |
+  Set di due Locomotive elettrice E 633 serie "200" nella livrea d'origine con pantografi tipo 52FS, 
+  articoli con numerazione di servizio diverse, entrambe motorizzate.
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 2
+rollingStocks:
+- typeName: E633
+  roadNumber: ''
+  series: ''
+  railway: FS
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 200
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: E633
+  roadNumber: ''
+  series: ''
+  railway: FS
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 200
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO    
+version: 2

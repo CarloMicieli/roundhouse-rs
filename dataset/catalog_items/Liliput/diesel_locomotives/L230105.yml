@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: L230105
+description: Set treno cantiere, automotore Badoni livrea arancio telaio nero + 3 carri a 2 assi
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: 215 / 218 Badoni
+  roadNumber: ''
+  series: ''
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

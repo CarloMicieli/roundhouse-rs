@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60265'
+description: E655 Cargo blu/grigio, logo Trenitalia, fregio bianco su un frontale, condizionatori, striscianti piatti
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E655 528
+  series: QUINTA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

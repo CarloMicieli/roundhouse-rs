@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: L208676
+description: Castano/isabella/rosso, 3 fanali, corrimani sul tetto, dep. Taranto
+powerMethod: DC
+scale: H0
+deliveryDate: '2000'
+count: 1
+rollingStocks:
+- typeName: D341
+  roadNumber: D341 2001
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

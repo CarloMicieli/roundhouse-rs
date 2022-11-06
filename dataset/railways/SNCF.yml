@@ -1,0 +1,23 @@
+name: SNCF
+registeredCompanyName: Société Nationale des Chemins de fer Français
+country: fr
+periodOfActivity:
+  operatingSince: 1937-08-31
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 35000
+  miles: 22000
+contactInfo:
+  websiteUrl: https://www.sncf.com
+social:
+  facebook: SNCFOFFICIEL
+  instagram: sncf
+  linkedin: sncf
+  twitter: sncf
+  youtube: SNCF
+headquarters: Paris
+version: 1

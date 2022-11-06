@@ -1,0 +1,51 @@
+brand: ACME
+itemNumber: '70018'
+description: |
+  Set ALe 790 fiancate lisce, castano/isabella, motorizzata + folle
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 2
+rollingStocks:
+- typeName: 'ALe 790'
+  roadNumber: ALe 790 044
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 313
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 790'
+  roadNumber: ALe 790 046
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 313
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

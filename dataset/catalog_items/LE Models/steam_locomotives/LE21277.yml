@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE21277
+description: Fanali a petrolio anteriori, carboniera rialzata, vomere a scudo, carboniera metallica
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: '851'
+  roadNumber: 851 191
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

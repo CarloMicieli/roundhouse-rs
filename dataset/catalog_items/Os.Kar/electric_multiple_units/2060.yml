@@ -1,0 +1,57 @@
+brand: Os.Kar
+itemNumber: '2060'
+description: |
+  Elettromotrice Ale 540 012 FS, pantografi 42 strisciante curvo e rimorchiata Le 540 001 attrezzata con cucina e comparto ristoro, 
+  nella livrea isabella telaio castano con fascia rossa.
+
+  Automotrice FS ALe 540.012 + rimorchiata pilota Le 540.001 con comparto cucina Ep. IVa Telaio in metallo, illuminazione interna di serie, 
+  carrelli entrambi motorizzati, arredo interno completo, fanali illuminati selezionabili. Presa per decoder PluX22 con predisposizione sound, 
+  con altoparlante montato di serie. 
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 2
+rollingStocks:
+- typeName: 'ALe 540'
+  roadNumber: ALe 540 012
+  series: seconda serie
+  railway: FS
+  epoch: IVa
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  serviceLevel: 1cl
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: PLUX_22
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 540'
+  roadNumber: Le 540 001
+  series: 
+  railway: FS
+  epoch: IVa
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  serviceLevel: 1cl
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

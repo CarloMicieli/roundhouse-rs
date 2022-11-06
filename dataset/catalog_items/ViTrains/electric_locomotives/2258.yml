@@ -1,0 +1,29 @@
+brand: ViTrains
+itemNumber: '2258'
+description: Trenord livrea verde/bianco/grigio fasce rosse, marcatura EVN, display alto (2758 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: E464
+  roadNumber: E464 475
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

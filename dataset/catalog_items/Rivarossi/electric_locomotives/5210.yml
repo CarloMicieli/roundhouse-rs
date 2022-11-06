@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: '5210'
+description: Prima serie ricostruita, senza compressore, tamponi in gomma, dep. Ancona, serie Galletto
+powerMethod: DC
+scale: H0
+deliveryDate: '1995'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 091
+  series: SECONDA SERIE con avancorpi
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

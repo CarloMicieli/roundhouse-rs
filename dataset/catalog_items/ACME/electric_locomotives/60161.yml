@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '60161'
+description: |
+  Locomotiva elettrica FS E 646.030 (2a serie) nella livrea verde/grigio con modanature, vomere giallo/nero, scalette grandi, dep. Napoli Sm
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 030
+  series: SECONDA SERIE
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Napoli Smistamento
+  length: 210
+  livery: verde/grigio
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

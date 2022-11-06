@@ -1,0 +1,29 @@
+brand: Lenz / Blackstar
+itemNumber: 30155-05
+description: Società Veneta livrea bordeaux, panconi rosso/nero, cabina aperta, DCC, escl. CFB
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: '213'
+  roadNumber: LDn 601
+  series: Köf II ex DB
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

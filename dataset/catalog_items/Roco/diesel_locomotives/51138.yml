@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '51138'
+description: Start set, 214 verde fasce gialle, dep. Treviso + 2 carri merci, trasformatore, binari
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: '214'
+  roadNumber: 214 4097
+  series: ''
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

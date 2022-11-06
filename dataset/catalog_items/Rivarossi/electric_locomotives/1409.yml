@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: '1409'
+description: Carrelli Ap 1110, ruote con tamponi in gomma, dep. Alessandria
+powerMethod: DC
+scale: H0
+deliveryDate: '1998'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 143
+  series: TERZA SERIE semiaerodinamica
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

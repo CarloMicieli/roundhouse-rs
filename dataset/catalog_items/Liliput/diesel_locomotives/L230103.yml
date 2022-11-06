@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: L230103
+description: Set treno cantiere “WIEBE”, loco da manovra livrea gialla telaio grigio + 3 carri
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: 215 / 218 Badoni
+  roadNumber: Nr. 15
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60192'
+description: XMPR2 nuovo logo, 18 poli, corrimani frontali, cavi lateralizzazione, pant. 52/92, marc. UIC
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: E444R
+  roadNumber: E444R 070
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

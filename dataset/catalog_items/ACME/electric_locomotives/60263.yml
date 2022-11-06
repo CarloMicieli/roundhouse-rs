@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60263'
+description: Blu/grigio, senza smorzatori, senza condizionatori, respingenti tondi, striscianti curvi
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 204
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

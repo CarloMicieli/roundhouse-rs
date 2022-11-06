@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '73566'
+description: XMPR con fascia rossa frontale, marcatura UIC, nuovo logo, iscrizioni bilingue
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E412
+  roadNumber: E412 019
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

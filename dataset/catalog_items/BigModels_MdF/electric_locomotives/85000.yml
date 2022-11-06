@@ -1,0 +1,29 @@
+brand: BigModels/MdF
+itemNumber: '85000'
+description: Cast./isa., porte metalliche, finestrini esterni, vomeri, cassa risanata, dep. Mestre
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E626 159
+  series: TERZA SERIE
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

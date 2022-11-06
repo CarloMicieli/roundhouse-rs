@@ -1,0 +1,50 @@
+brand: Os.Kar
+itemNumber: '2062'
+description: |
+ 	Set ALe540 2a serie 1a cl. + rimorchiata pilota Le 640, livrea isabella telaio castano fascia rossa
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 2
+rollingStocks:
+- typeName: 'ALe 540'
+  roadNumber: ALe 540 018
+  series: seconda serie
+  railway: FS
+  epoch: IVa
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: PLUX_22
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 640'
+  roadNumber: Le 640 030
+  series: 
+  railway: FS
+  epoch: IVa
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

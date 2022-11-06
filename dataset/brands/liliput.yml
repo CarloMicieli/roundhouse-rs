@@ -1,0 +1,23 @@
+name: Liliput
+registeredCompanyName: 
+groupName: bachmann
+description: 
+address:
+  streetAddress: Am Umspannwerk 5
+  extendedAddress: 
+  postalCode: 90518
+  city: Altdorf b. Nürnberg
+  region: 
+  country: at
+contactInfo:
+  email: bachmann@liliput.de
+  websiteUrl: https://liliput.de
+  phone: 
+social:
+  instragram:
+  facebook:
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

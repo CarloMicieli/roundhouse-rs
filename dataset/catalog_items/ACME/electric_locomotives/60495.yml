@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60495'
+description: Grigio perla/blu orientale, 78 poli esterno, condotte alte, dep. Udine
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 136
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '72889'
+description: Serie 2000, vetri curvi, griglia squadrata, 2 scarichi centrali, fregio alluminio, dep. Roma S.L.
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 2010
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

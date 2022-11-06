@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HRS2589
+description: Grigio/verde, fascia rossa frontale, FS Trenitalia, ex “Francia”, OML MI C.le
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 150
+  series: ''
+  railway: FS?
+  epoch: V/VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

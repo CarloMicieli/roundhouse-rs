@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '51158'
+description: Start set, 214 verde fasce gialle, FS Trenitalia + carri FF + Gs + E, trasformatore, binari
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: '214'
+  roadNumber: 214 4046
+  series: ''
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

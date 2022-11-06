@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2871
+description: |
+  Locomotiva elettrica E 646 "Navetta" nella livrea MDVC con tetto scuro, vetri di origine
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: ''
+  series: SECONDA SERIE Trasformate Navetta
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 211
+  livery: MDVC beige/arancio/viola
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

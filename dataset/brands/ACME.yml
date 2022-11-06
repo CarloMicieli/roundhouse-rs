@@ -1,0 +1,23 @@
+name: ACME
+registeredCompanyName: Associazione Costruzioni Modellistiche Esatte
+groupName: 
+description: 
+address:
+  streetAddress: Viale Lombardia, 27
+  extendedAddress: 
+  postalCode: 20131
+  city: Milano
+  region: MI
+  country: it
+contactInfo:
+  email: mail@acmetreni.com
+  websiteUrl: http://www.acmetreni.com
+  phone: 
+social:
+  instragram:
+  facebook:
+  youtube:
+  twitter:  
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: '1408'
+description: Con compressore meccanico, cornici finestrini castano, REC
+powerMethod: DC
+scale: H0
+deliveryDate: '1994'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 107
+  series: SECONDA SERIE con avancorpi
+  railway: FS?
+  epoch: IIb/IIIa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

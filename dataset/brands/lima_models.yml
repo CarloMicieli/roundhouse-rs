@@ -1,0 +1,23 @@
+name: Lima Models
+registeredCompanyName: 
+groupName: hornby
+description: 
+address:
+  streetAddress: 
+  extendedAddress: 
+  postalCode: 
+  city: 
+  region: 
+  country: 
+contactInfo:
+  email: customerservices.it@hornby.com
+  websiteUrl: https://it.limamodel.it
+  phone: 
+social:
+  instragram: hornbyinternational
+  facebook: lima.models
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

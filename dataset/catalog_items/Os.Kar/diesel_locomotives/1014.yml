@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1014'
+description: Castano/isabella/rosso, costruzione FIAT, 3 fanali, barre sul tetto, dep. Taranto
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: D341
+  roadNumber: D341 1001
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

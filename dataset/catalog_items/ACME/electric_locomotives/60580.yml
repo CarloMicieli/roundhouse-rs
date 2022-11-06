@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60580'
+description: Castano/isabella, porte in legno, fanali automobilistici, dep. Alessandria (69580 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E626 132
+  series: TERZA SERIE
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

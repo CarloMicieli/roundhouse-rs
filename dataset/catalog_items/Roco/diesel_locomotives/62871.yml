@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '62871'
+description: Serie 1000, vetri curvi di origine, griglia sul tetto tonda, fregio verde
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 1009
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

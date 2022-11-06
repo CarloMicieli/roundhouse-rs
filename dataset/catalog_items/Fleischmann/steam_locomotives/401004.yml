@@ -1,0 +1,29 @@
+brand: Fleischmann
+itemNumber: '401004'
+description: Porto di Savona, livrea nera ruote rosse
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: T3
+  roadNumber: EA 11
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

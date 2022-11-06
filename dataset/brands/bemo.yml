@@ -1,0 +1,23 @@
+name: BEMO
+registeredCompanyName: BEMO Modelleisenbahnen GmbH u. Co KG
+groupName: 
+description: 
+address:
+  streetAddress: Stuttgarter Strasse 59
+  extendedAddress: 
+  postalCode: D-73066
+  city: Uhingen
+  region: 
+  country: de
+contactInfo:
+  email: mail@bemo-modellbahn.de
+  websiteUrl: https://www.bemo-modellbahn.de
+  phone: 
+social:
+  instragram: bemo_modellbahn
+  facebook: bemomodellbahn
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: L112323
+description: Stato d'origine, livrea castano isabella, doppia griglia frontale
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: 215 / 218 Badoni
+  roadNumber: 150 002
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

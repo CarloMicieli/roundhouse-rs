@@ -1,0 +1,72 @@
+brand: ACME
+itemNumber: '70071'
+description: Set 3 carrozze intermedie per ETR500 Y1 RFI (carrozze 5+6+7), due in livrea blu/bianco + una in livrea AV grigia
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 3
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 70 83 2 998 501-9
+  series: Diagnostici
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 70 83 2 998 506-1
+  series: Diagnostici
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 154-5
+  series: Diagnostici
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

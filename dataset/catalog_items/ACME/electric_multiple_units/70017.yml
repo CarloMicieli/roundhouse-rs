@@ -1,0 +1,51 @@
+brand: ACME
+itemNumber: '70017'
+description: |
+  Set ALe 880 FIAT con coprigiunti, castano/isabella, motorizzata + folle 
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 2
+rollingStocks:
+- typeName: 'ALe 880'
+  roadNumber: ALe 880 072
+  series: 
+  railway: FS
+  epoch: III
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 313
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 880'
+  roadNumber: ALe 880 087
+  series: 
+  railway: FS
+  epoch: III
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 313
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

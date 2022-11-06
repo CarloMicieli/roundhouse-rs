@@ -1,0 +1,23 @@
+name: Märklin
+registeredCompanyName: Gebr. Märklin & Cie. GmbH
+groupName: 
+description: 
+address:
+  streetAddress: Stuttgarter Straße 55-57
+  extendedAddress: 
+  postalCode: D-73033
+  city: Göppingen
+  region: 
+  country: de
+contactInfo:
+  email: 
+  websiteUrl: https://www.maerklin.de
+  phone: 
+social:
+  instragram: maerklin
+  facebook: maerklin
+  youtube: UC_ulAkE0RxHUEhpvWf49pRQ
+  twitter: maerklin
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '60066'
+description: |
+  Locomotiva FS D.342 senza porta anteriore, senza modanature, livrea rosso, castano e Isabella. Epoca IV
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 4008
+  series: ANSALDO
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: Siena
+  length: 175
+  livery: rosso/castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60382'
+description: Livrea XMPR completa, logo FS Trenitalia, SCMT
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 134
+  series: ''
+  railway: FS?
+  epoch: Vb/VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

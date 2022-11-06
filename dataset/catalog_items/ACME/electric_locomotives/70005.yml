@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '70005'
+description: TiLo grigio/rosso/bianco, set con 3 carrozze piano ribassato ristrutturate, pantografi Sommerfeldt
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: E464
+  roadNumber: E464 198
+  series: ''
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

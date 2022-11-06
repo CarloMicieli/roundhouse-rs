@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: 208225LP
+description: Seconda serie, senza modanature, smorzatori, portello G.S., dep. MI C.le, pant. Sommerfeldt
+powerMethod: DC
+scale: H0
+deliveryDate: '1991'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 066
+  series: ''
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

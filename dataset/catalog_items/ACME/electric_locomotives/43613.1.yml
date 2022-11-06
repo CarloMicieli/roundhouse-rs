@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '43613.1'
+description: Camilla cabine ricostruite Rosso/grigio, deposito Verona Santa Lucia
+powerMethod: DC
+scale: H0
+deliveryDate: '1992'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 284
+  series: TERZA SERIE
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

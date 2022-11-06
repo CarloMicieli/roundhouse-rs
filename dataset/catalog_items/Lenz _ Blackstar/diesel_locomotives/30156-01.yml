@@ -1,0 +1,29 @@
+brand: Lenz / Blackstar
+itemNumber: 30156-01
+description: Kof livrea giallo cantiere, telaio nero, cabina chiusa, decals per 6 imprese, DCC, ganci dig.
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: '213'
+  roadNumber: ''
+  series: Köf II ex DB
+  railway: FS?
+  epoch: IV/VI
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

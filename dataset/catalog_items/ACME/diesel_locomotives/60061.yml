@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60061'
+description: Locomotiva diesel D 461 1001 nella livrea castano/isabella/verde
+powerMethod: DC
+scale: H0
+deliveryDate: '2005'
+count: 1
+rollingStocks:
+- typeName: D461
+  roadNumber: D461 1001
+  series: ''
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 220
+  livery: castano/isabella/verde
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

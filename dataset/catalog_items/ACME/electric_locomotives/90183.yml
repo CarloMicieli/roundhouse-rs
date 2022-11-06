@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '90183'
+description: Cast./isa., porte met., finestrini est., maglia sganciabile, dep. Salerno (S DCC Sound), escl. MC
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E626 313
+  series: TERZA SERIE
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

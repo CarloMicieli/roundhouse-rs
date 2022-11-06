@@ -1,0 +1,93 @@
+brand: ACME
+itemNumber: '70051'
+description: Set ALe 801/940 (motorizzata + folle) + 2 rimorchiate Le 108, porte frontali di origine, respingenti, vano frontale aperto, livrea XMPR1
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 4
+rollingStocks:
+- typeName: ALe 801
+  roadNumber: ALe 801 005
+  series: ''
+  railway: FS
+  epoch: V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: 'XMPR1'
+  control: DCC_READY
+  dummy: NO
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: Le 108
+  roadNumber: Le 108 014
+  series: ''
+  railway: FS
+  epoch: V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: 'XMPR1'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: Le 108
+  roadNumber: Le 108 005
+  series: ''
+  railway: FS
+  epoch: V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: 'XMPR1'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ALe 940
+  roadNumber: ALe 940 017
+  series: ''
+  railway: FS
+  epoch: V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: 'XMPR1'
+  control: DCC_READY
+  dummy: YES
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '90143'
+description: Verde/grigio di origine con modanature, carrelli castano, scalette strette, mantice bianco, vomere
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 160
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

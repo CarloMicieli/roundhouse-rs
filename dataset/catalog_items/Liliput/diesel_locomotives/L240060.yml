@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: L240060
+description: Set “Heitkamp Rail”, loco da manovra livrea grigia + 3 carri, commemorativa Bachmann/Kader
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: 215 / 218 Badoni
+  roadNumber: V16.01
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

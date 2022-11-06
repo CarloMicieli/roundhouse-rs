@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE20651
+description: Verde/grigio nebbia, carrelli castano, scalette grandi, prese aria origine, dep. Firenze, panto. 52
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E646 002
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IIIb/IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

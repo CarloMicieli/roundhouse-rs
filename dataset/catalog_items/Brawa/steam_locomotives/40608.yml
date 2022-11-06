@@ -1,0 +1,29 @@
+brand: Brawa
+itemNumber: '40608'
+description: Nero telaio rosso, corrimani rossi, ruote Box Pok, carboniera alta
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: '893'
+  roadNumber: 893 005
+  series: (ex Rh 178 K.k.St.B. / BBÖ)
+  railway: FS?
+  epoch: II/III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

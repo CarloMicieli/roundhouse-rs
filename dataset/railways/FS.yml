@@ -1,0 +1,23 @@
+name: FS
+registeredCompanyName: Ferrovie dello Stato Italiane S.p.A.
+country: it
+periodOfActivity:
+  operatingSince: 1905-07-01
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 24564
+  miles:
+contactInfo:
+  websiteUrl: https://www.fsitaliane.it
+social:
+  facebook:
+  instagram: fsitaliane
+  linkedin: ferrovie-dello-stato-s-p-a-
+  twitter: FSitaliane
+  youtube: fsitaliane
+headquarters: Roma
+version: 1

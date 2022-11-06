@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60166'
+description: Verde/grigio, modanature, carrelli castano, scalette piccole, cornici chiare (69166 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 185
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

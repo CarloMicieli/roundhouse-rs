@@ -1,0 +1,75 @@
+brand: ACME
+itemNumber: '70151'
+description: ETR500 monotensione, set intermedia 1a classe speciale (carrozza 3) + 2 intermedie 2a classe (carrozze 8 e 9), livrea bianco/verde, logo FS Trenitalia
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 3
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 899 227-3
+  series: MONOTENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: 'livrea di origine bianco/verde'
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 144-6
+  series: MONOTENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: 'livrea di origine bianco/verde'
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 145-3
+  series: MONOTENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: 'livrea di origine bianco/verde'
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

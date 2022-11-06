@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '43614.4'
+description: Verde/isabella, vetri tondi, deposito Torino
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: D345
+  roadNumber: D345 1118
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

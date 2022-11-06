@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2176
+description: Locomotiva elettrica E428 102 con compressore meccanico, separatore D'Arbela, DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 102
+  series: seconda serie con avancorpi
+  railway: FS
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 222
+  livery: castano/isabella
+  control: DCC_SOUND
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 1

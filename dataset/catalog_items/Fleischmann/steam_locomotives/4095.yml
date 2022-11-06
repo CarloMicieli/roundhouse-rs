@@ -1,0 +1,29 @@
+brand: Fleischmann
+itemNumber: '4095'
+description: BR 94 (ex T16.1 prussiana) versione “neutrale” livrea nera, decals per versione FS
+powerMethod: DC
+scale: H0
+deliveryDate: '1979'
+count: 1
+rollingStocks:
+- typeName: '897'
+  roadNumber: 897 001
+  series: (ex BR 94 DB / T16.1 KPEV)
+  railway: FS?
+  epoch: II/III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

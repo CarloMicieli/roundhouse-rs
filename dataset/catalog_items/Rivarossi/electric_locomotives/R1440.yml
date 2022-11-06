@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: R1440
+description: Terza serie ricostruita con cassa aerodinamica, panconi piatti, ruote con tamponi in gomma
+powerMethod: DC
+scale: H0
+deliveryDate: '2002'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 162
+  series: QUARTA SERIE aerodinamica
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

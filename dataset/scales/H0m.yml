@@ -1,0 +1,9 @@
+name: H0m
+description:
+ratio: 87
+gauge:
+  millimeters: 12
+  inches: 
+  trackGauge: NARROW
+standards:
+  - NEM

@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: R1466
+description: '''Pirata'' livrea MDVC beige fasce arancio/viola, telaio nero, carrelli Ap 1110'
+powerMethod: DC
+scale: H0
+deliveryDate: '2003'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 226
+  series: QUARTA SERIE aerodinamica
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

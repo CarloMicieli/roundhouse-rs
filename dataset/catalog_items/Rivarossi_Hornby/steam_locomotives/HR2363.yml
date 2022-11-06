@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2363
+description: Fanali elettrici, vomere ripiegabile, fumaiolo piccolo, bielle rosse, cerchioni bianchi
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: '940'
+  roadNumber: 940 044
+  series: ''
+  railway: FS?
+  epoch: III/IV
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

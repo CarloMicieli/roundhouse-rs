@@ -1,0 +1,31 @@
+brand: Lima
+itemNumber: '208195'
+description: |
+ 	Verde/grigio con riga rossa, finestrini frontali piccoli, non motorizzata
+powerMethod: DC
+scale: H0
+deliveryDate: '1988'
+count: 1
+rollingStocks:
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 055
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ViTrains
+itemNumber: '2147'
+description: Trenitalia livrea XMPR, nuova marcatura, gancio automatico, logo biciclette, logo SCMT, folle
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E464
+  roadNumber: E464 566
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

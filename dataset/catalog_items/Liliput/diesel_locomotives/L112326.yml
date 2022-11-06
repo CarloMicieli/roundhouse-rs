@@ -1,0 +1,29 @@
+brand: Liliput
+itemNumber: L112326
+description: Livrea verde, telaio nero, corrimani gialli, doppia griglia frontale
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: 215 / 218 Badoni
+  roadNumber: 215 014
+  series: ''
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

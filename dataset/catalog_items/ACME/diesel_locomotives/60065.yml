@@ -1,0 +1,32 @@
+brand: ACME
+itemNumber: '60065'
+description: |
+  Locomotiva FS D.342 4013 ANSALDO nello stato di origine con porta anteriore, livrea rosso, castano e Isabella.
+  2 fanali, versione di origine, porta frontale, modanature, dep. Cagliari.
+  Edizione limitata
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 4013
+  series: ANSALDO
+  railway: FS
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: Cagliari
+  length: 175
+  livery: rosso/castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

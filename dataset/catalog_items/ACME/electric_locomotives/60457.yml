@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60457'
+description: |
+  Locomotiva elettrica FS E.636 251 nella livrea isabella, vomere giallo/nero, pantografi 52 strisciante piano, 
+  deposito Roma San Lorenzo
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 251
+  series: seconda serie
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Roma San Lorenzo
+  length: 210
+  livery: isabella
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

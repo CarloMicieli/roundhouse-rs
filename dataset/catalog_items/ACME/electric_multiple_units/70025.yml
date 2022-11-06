@@ -1,0 +1,185 @@
+brand: ACME
+itemNumber: '70025'
+description: |
+  “Frecciarossa” Treno 45, livrea tricolore commemorativa 150 anni Unità d’Italia, confezione con 2 E404 (motorizzata + folle) + intermedia 1a classe speciale/disabili (carrozza 3) + intermedia 1a 
+  classe (carrozza 4), ristorante (carrozza 5) + 3 intermedie di 2a classe (carrozze 6, 7, 8)
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 8
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 93 83 7 404 511-1
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 260
+  livery: ''
+  control: DCC_READY
+  dummy: NO
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 899 023-6
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: '1cl'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 199 271-8
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: '1cl'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 889 213-5
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 232-9
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: '2cl'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 244-4
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: '2cl'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 252-8
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  serviceLevel: '2cl'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 93 83 7 404 523-2
+  series: POLITENSIONE “Frecciarossa” Alta Velocità
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 260
+  livery: ''
+  control: DCC_READY
+  dummy: YES
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '69304'
+description: |
+  Locomotiva elettrica E 444 114 di II serie, con "Baffo rosso" e con modanature nella livrea d'origine.
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 114
+  series: seconda serie
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Firenze
+  length: 195
+  livery: blu/grigio
+  control: DCC_SOUND
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

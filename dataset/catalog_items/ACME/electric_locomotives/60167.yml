@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60167'
+description: Castano/isabella con modanature, carrelli castano, scalette piccole (69167 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 041
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2671
+description: Fanali elettrici, carboniera rialzata, respingenti a bovolo (HL2671D DCC)
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: '851'
+  roadNumber: 851 197
+  series: ''
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

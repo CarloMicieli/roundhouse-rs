@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '43608'
+description: Blu/grigio, coprigiunto basso, boccole strisciamento pantografi 42 dep. Verona S. L., serie limitata
+powerMethod: DC
+scale: H0
+deliveryDate: '1989'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 080
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

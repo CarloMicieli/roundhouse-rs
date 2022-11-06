@@ -1,0 +1,26 @@
+name: Bachmann
+registeredCompanyName: 
+groupName: 
+description: |
+  Bachmann Trains is now known for its extensive and award-winning line of model railroading products, 
+  but the company started in 1833 as a producer of handcrafted ivory accessories, beginning a 180-year 
+  commitment to quality that continues to this day. 
+address:
+  streetAddress: 1400 East Erie Avenue
+  extendedAddress: 
+  postalCode: 19124
+  city: Philadelphia
+  region: Pennsylvania
+  country: us
+contactInfo:
+  email: service@bachmanntrains.com 
+  websiteUrl: https://www.bachmanntrains.com
+  phone: 
+social:
+  instragram:
+  facebook: Bachmanntrains
+  youtube: bachmanntrains
+  twitter: bachmanntrains
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

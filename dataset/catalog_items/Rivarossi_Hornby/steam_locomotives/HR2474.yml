@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2474
+description: Livrea nera, telaio rosso vagone, panconi rossi, marcature bianche, DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: '831'
+  roadNumber: 831 001
+  series: (ex S100 USATC)
+  railway: FS?
+  epoch: IIIa
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

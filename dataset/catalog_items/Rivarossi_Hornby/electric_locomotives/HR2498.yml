@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2498
+description: |
+  Locomotiva elettrica E428 216 nella livrea castano/isabella, TIBB, corrimano frontale orizzontale, 
+  compressore, carrelli e respingenti di origine, dep. BO S.D.
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 216
+  series: quarta serie aerodinamica
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Bologna San Donato
+  length: 222
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 2

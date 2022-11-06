@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '43728.1'
+description: Livrea verde fasce gialle, costruzione Badoni
+powerMethod: DC
+scale: H0
+deliveryDate: '1996'
+count: 1
+rollingStocks:
+- typeName: '214'
+  roadNumber: 214 4133
+  series: ''
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1688'
+description: Fanali elettrici, vomere ripiegabile, tender a carrelli 22 mc con scalette standard
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: '685'
+  roadNumber: 685 445
+  series: SERIE 300 (ex Gr. 680)
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: HR2705
+description: Blu/grigio, vomere rosso, striscianti piatti, dep. Genova B.le (Hornby, HR2705D DCC)
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 507
+  series: SESTA SERIE
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

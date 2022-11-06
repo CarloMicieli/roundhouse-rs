@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2160
+description: Casse d'acqua rivettate, fanali a petrolio illuminati, bordini ruote bianchi, dep. La Spezia
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: '835'
+  roadNumber: 835 053
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

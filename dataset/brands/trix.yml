@@ -1,0 +1,23 @@
+name: Trix
+registeredCompanyName: Gebr. Märklin & Cie. GmbH
+groupName: märklin
+description: 
+address:
+  streetAddress: Stuttgarter Straße 55-57
+  extendedAddress: 
+  postalCode: D-73033
+  city: Göppingen
+  region: 
+  country: de
+contactInfo:
+  email: service@maerklin.de
+  websiteUrl: https://www.trix.de
+  phone: 
+social:
+  instragram:
+  facebook: TRIX
+  youtube:
+  twitter:  
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

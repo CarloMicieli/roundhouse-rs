@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE20654
+description: Castano/isabella, coltelli sezionatori, pantografi 42LR strisc. curvo, stato consegna (1958)
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E646 001
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

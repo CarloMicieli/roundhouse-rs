@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2797
+description: |
+  Locomotiva elettrica classe E652 108, livrea grigio/alluminio/rosso "FS Mercitalia Rail"
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 108
+  series: ''
+  railway: FS
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 200
+  livery: grigio/alluminio/rosso
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

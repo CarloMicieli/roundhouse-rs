@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '43499'
+description: Castano/isabella 3a serie, dep. Bologna San Donato
+powerMethod: DC
+scale: H0
+deliveryDate: '1988'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E626 375
+  series: TERZA SERIE
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

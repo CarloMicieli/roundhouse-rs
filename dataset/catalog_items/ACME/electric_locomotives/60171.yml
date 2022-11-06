@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60171'
+description: Set due E405 FS Trenitalia, livrea XMPR, motorizzata + folle
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: E405
+  roadNumber: E405 029 + E405 004
+  series: ''
+  railway: FS?
+  epoch: Vb/VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

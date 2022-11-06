@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1806'
+description: Nera telaio rosso, valvole FS, targhe, stato definitivo
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: '675'
+  roadNumber: 675 017
+  series: (ex BR 38 DB / P8 KPEV)
+  railway: FS?
+  epoch: II/III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

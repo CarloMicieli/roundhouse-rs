@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE21274
+description: Fanali elettrici anteriori, carboniera rialzata, vomere a scudo, vetro posteriore cieco
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: '851'
+  roadNumber: 851 152
+  series: ''
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

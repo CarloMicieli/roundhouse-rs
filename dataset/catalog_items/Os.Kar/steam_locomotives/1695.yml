@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1695'
+description: Livrea fotografica grigia, fanali a petrolio, tender 29 mc, pompa Knorr monocilindrica
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: '691'
+  roadNumber: 691 027
+  series: ''
+  railway: FS?
+  epoch: IIIa
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

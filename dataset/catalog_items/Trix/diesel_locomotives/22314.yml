@@ -1,0 +1,29 @@
+brand: Trix
+itemNumber: '22314'
+description: FS livrea verde vagone, panconi rossi, mancorrenti gialli, DCC/SX
+powerMethod: DC
+scale: H0
+deliveryDate: '2004'
+count: 1
+rollingStocks:
+- typeName: '213'
+  roadNumber: '213.915'
+  series: Köf II ex DB
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

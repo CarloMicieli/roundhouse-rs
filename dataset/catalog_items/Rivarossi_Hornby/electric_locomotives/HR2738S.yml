@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2738S
+description: Verde magnolia/grigio nebbia, fregio FS, pantografi 42LR strisc. curvo
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 013
+  series: prima serie
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: verde magnolia/grigio nebbia
+  control: DCC_SOUND
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

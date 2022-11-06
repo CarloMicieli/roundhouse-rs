@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60497'
+description: Mercitalia Rail nuova livrea grigio/alluminio/rosso
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 087
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

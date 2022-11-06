@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: 60355S
+description: Sovralimentata, castano/isabella/rosso, 2 fanali, stato di origine, porta frontale, modanature, dep. PD
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 4017
+  series: ANSALDO
+  railway: FS
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

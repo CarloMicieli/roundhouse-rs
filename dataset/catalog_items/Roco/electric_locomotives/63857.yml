@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '63857'
+description: Castano/Isabella, nicchia scarico distributore, coprigiunto alto, boccole rulli, panto. 42 dep. Alessandria
+powerMethod: DC
+scale: H0
+deliveryDate: '2006'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 210
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Lenz / Blackstar
+itemNumber: 30156-02
+description: SERFER giallo cantiere, telaio nero, cabina chiusa, tetto marrone, 3 fanali, DCC, ganci dig.
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: '213'
+  roadNumber: ''
+  series: Köf II ex DB
+  railway: FS?
+  epoch: V/VI
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

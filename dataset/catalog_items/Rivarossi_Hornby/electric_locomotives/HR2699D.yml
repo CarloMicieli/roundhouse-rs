@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2699D
+description: Prototipo livrea blu/grigio, fanali sporgenti, dep. Verona
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 004
+  series: prototipo
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Verona
+  length: 0
+  livery: blu/grigio
+  control: DCC
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

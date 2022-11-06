@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1680'
+description: Fanali a petrolio, tender a carrelli, ruotino a vela piena, resp. a bovolo
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: '680'
+  roadNumber: 680 037
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

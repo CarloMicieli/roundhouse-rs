@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2773
+description: |
+  Locomotiva E646 170 "NAVETTA" in livrea verde magnolia/grigio perla, vetri di origine, 
+  griglie laterali, senza gocciolatoio, deposito Milano Centrale
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 170
+  series: SECONDA SERIE Trasformate Navetta
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano Centrale
+  length: 211
+  livery: verde magnolia/grigio perla
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

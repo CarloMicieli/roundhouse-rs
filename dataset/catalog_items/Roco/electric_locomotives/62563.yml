@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '62563'
+description: XMPR OML Roma S. Lorenzo, smorzatori, climatizzatore, antenne sul tetto, respingenti tondi
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 018
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

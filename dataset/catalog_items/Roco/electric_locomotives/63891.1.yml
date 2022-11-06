@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '63891.1'
+description: Rosso/grigio, marcatura frontale bianca, deposito Milano C.le, pantografi Sommerfeldt
+powerMethod: DC
+scale: H0
+deliveryDate: '2006'
+count: 1
+rollingStocks:
+- typeName: E444R
+  roadNumber: E444R 042
+  series: ''
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60140'
+description: Castano/isabella, fregio alato, scalette piccole, pant. 42 strisciante curvo, dep. Reggio Cal.
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 006
+  series: PRIMA SERIE (ex E646)
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

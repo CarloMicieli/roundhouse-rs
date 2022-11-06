@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2646
+description: Isabella, vetri Triplex, fregio rosso, 4 sabbiere, senza RS, strisciante piano, dep. Reggio Calabria
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 070
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

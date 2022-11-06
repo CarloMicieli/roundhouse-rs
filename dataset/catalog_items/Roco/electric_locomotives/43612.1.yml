@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '43612.1'
+description: Castano/isabella vetri Triplex, fregio castano con ali, dep. Udine
+powerMethod: DC
+scale: H0
+deliveryDate: '1998'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 103
+  series: serie 100 (ex E646 prototipo)
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

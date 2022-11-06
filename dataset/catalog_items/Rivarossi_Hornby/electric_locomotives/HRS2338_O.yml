@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HRS2338/O
+description: Brass Edition, cassa in metallo, livrea dorata, telaio castano, compressore
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 100
+  series: SECONDA SERIE con avancorpi
+  railway: FS?
+  epoch: /
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,75 @@
+brand: ACME
+itemNumber: '70022'
+description: Confezione con intermedia 1a classe (carrozza 2) + 2 intermedie 2a classe (carrozze 6 e 7), livrea “AV” grigio/argento, logo FS Trenitalia verde/blu
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 3
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 199 082-9
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea “AV” grigio/argento
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 061-2
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea “AV” grigio/argento
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 062-0
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea “AV” grigio/argento
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

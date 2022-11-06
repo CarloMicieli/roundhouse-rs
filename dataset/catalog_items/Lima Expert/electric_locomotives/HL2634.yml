@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2634
+description: Verde/grigio perla, carrelli neri, fregio verde, vetri Triplex, RS continua, dep. Bologna C.le
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E646 001
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

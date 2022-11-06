@@ -1,0 +1,23 @@
+name: ÖBB
+registeredCompanyName: Österreichische Bundesbahnen-Holding Aktiengesellschaft
+country: at
+periodOfActivity:
+  operatingSince: 1923
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 9740
+  miles:
+contactInfo:
+  websiteUrl: https://www.oebb.at
+social:
+  facebook: unsereOEBB
+  instagram: unsereoebb
+  linkedin: obb
+  twitter: unsereOEBB
+  youtube: unsereOEBB
+headquarters: Wien
+version: 1

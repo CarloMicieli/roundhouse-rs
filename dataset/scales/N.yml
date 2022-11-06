@@ -1,0 +1,9 @@
+name: N
+description:
+ratio: 160
+gauge:
+  millimeters: 9
+  inches: 0.354
+  trackGauge: STANDARD
+standards:
+  - NEM

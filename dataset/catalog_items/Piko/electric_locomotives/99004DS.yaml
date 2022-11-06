@@ -1,0 +1,30 @@
+brand: Piko
+itemNumber: 99004DS
+description: |
+  Locomotiva Elettrica E.428 FS di quarta serie aerodinamica
+powerMethod: DC
+scale: H0
+deliveryDate: '2023'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber:
+  series: quarta serie
+  railway: FS
+  epoch: III/IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_SOUND
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2868S
+description: |
+  Locomotiva elettrica E 646 di 2a serie nella livrea Treno Azzurro blu/celeste, carrelli castano, modanature, scalette piccole
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: ''
+  series: SECONDA SERIE
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 211
+  livery: blu/celeste
+  control: DCC_SOUND
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

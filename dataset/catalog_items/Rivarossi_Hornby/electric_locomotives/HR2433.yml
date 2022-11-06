@@ -1,0 +1,49 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2433
+description: Set 2 E444 2a serie con modanature, 061 con baffo rosso, carrelli neri, dep. Mestre + 069 senza baffo rosso, carrelli in bruno, entrambe motorizzate
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 2
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 061
+  series: ''
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: E444
+  roadNumber: E444 069
+  series: ''
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO    
+version: 1

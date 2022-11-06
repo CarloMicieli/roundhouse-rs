@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '60160'
+description: |
+  Locomotiva elettrica FS E 645.057 (2a serie) nella livrea castano/isabella con modanature, vomere nero. 
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 057
+  series: seconda serie
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Reggio Calabria
+  length: 210
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

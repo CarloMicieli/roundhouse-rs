@@ -1,0 +1,93 @@
+brand: ACME
+itemNumber: '70201'
+description: Set Frecciarossa 1000 treno 03, carrozza 1 Executive di testa + carrozza 3 Business/Bistro (motorizzata) + carrozza 7 Standard con pantografo + carrozza 8 Standard di coda (70201D DCC, 79201 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 4
+rollingStocks:
+- typeName: ETR 400
+  roadNumber: 93 83 3400 103-0 I-TI
+  series: Frecciarossa 1000
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 400
+  roadNumber: 93 83 5400 303-1 I-TI
+  series: Frecciarossa 1000
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 400
+  roadNumber: 93 83 0400 703-3 I-TI
+  series: Frecciarossa 1000
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 400
+  roadNumber: 93 83 4400 803-3 I-TI
+  series: Frecciarossa 1000
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

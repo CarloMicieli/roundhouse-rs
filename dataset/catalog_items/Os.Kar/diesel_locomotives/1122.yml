@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1122'
+description: XMPR FS Trenitalia, navetta 2a serie, 2 fanali con fascia rossa, griglie grigie, vomere, dep. Treviso
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: D445
+  roadNumber: D445 1048
+  series: ''
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

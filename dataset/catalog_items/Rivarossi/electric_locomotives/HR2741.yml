@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: HR2741
+description: Castano/isabella, scalette piccole, dep. Napoli Sm., pantografi 52 (HR2471S DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 002
+  series: PRIMA SERIE (ex E646)
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

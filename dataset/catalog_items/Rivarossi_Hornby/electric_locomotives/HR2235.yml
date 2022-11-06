@@ -1,0 +1,49 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2235
+description: Set E652 prototipo + serie, livrea blu/grigio, dep. Verona, entrambe motorizzate
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 2
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 003
+  series: ''
+  railway: FS
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Verona
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: E652
+  roadNumber: E652 058
+  series: ''
+  railway: FS
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Verona
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO    
+version: 1

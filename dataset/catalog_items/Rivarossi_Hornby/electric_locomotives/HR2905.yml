@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2905
+description: |
+  Locomotiva elettrica E402B 142 nella livrea RFI giallo/blu, loghi grandi su fiancate
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 142
+  series: ''
+  railway: FS
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 223
+  livery: giallo/blu
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60470'
+description: Livrea blu/grigio, logo “tigre”, senza vomeri, pantografi Faiveley, stato di origine
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: E633
+  roadNumber: E633 002
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

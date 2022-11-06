@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2869S
+description: |
+  Locomotiva elettrica E 646 di 2a serie con modanature nella livrea verde/magnolia, carrelli neri, scalette grandi
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 177
+  series: SECONDA SERIE
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 211
+  livery: verde/magnolia
+  control: DCC_SOUND
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

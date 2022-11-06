@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '62562'
+description: E655 blu/grigio dep. Mestre, climatizz., antenne, resp. tondi, vomeri rossi, tubi blu, logo Trenitalia
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E655 045
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

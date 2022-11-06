@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60262'
+description: |
+  Locomotiva elettrica FS E 656.306 "Caimano" (3a serie) nella livrea di origine con respingenti tondi.
+  Senza smorzatori, senza condizionatori, striscianti curvi.
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 306
+  series: TERZA SERIE
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano C.le.
+  length: 210
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

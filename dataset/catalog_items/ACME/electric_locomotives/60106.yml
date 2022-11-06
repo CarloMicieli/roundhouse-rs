@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60106'
+description: Frontale ricostruito, vetri Triplex, senza modanature (69106 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 004
+  series: PROTOTIPO
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

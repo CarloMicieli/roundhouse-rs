@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60640'
+description: Set 2 E402B livrea “Frecciabianca 2” bianco/grigio scuro fasce rosse, senza scritte, motorizzata + folle (69640 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: " \t "
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: ''
+  series: ''
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

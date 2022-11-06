@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '63277'
+description: Cabina aperta, stato di origine, livrea fotografica grigia, marcatura posteriore su parete cabina
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: '875'
+  roadNumber: '87513'
+  series: ''
+  railway: FS?
+  epoch: I
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

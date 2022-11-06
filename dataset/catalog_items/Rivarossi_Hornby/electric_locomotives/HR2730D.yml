@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2730D
+description: XMPR Trenitalia, smorzatori, condizionatori, striscianti piani, O.M.L. Livorno
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 250
+  series: seconda serie
+  railway: FS
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Livorno
+  length: 0
+  livery: XMPR
+  control: DCC
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

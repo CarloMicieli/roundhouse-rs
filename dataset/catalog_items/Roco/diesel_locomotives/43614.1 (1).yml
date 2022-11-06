@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: 43614.1 (1)
+description: Verde/isabella, vetri tondi, costruzione Fiat Ferr. Savigliano, deposito Alessandria
+powerMethod: DC
+scale: H0
+deliveryDate: '1992'
+count: 1
+rollingStocks:
+- typeName: D345
+  roadNumber: D345 1088
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '70011'
+description: Carrozza ristorante per ETR500 livrea bianco/verde, logo FS Trenitalia (carrozza 5). Illuminazione interna montata di serie.
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 889 220-0
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea di origine bianco/verde
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

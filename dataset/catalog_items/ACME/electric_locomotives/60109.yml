@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60109'
+description: |
+  Tartaruga "elettronica" nella versione di origine, blu/grigio con modanature.
+  La confezione contiene il portachiavi con tartaruga ed un libretto di presentazione di Franco Dell'Amico.
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 005
+  series: ''
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Firenze
+  length: 195
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

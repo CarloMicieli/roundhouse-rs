@@ -1,0 +1,72 @@
+brand: ACME
+itemNumber: '70061'
+description: “Frecciarossa” con 4 livelli di servizio, set intermedia Business (carrozza 2) + intermedia Premium (carrozza 6) + intermedia Standard (carrozza 8)
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 3
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 199 076-1
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 103-2
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 106-5
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

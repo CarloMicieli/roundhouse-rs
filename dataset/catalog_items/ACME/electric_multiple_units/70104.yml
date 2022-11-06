@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '70104'
+description: “Frecciarossa” Treno 14 4 livelli, intermedia Standard (carrozza 10), nuovo logo “Frecciarossa”
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5299 223-8
+  series: POLITENSIONE
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: '“Frecciarossa” Alta Velocità'
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2615
+description: Livrea grigio perla/blu orientale, fregio blu, condotte servizi, pantografi 42LR, dep. Bolzano
+powerMethod: DC
+scale: H0
+deliveryDate: '2015'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 080
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

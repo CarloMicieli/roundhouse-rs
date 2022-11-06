@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2002
+description: XMPR tetto verde, fascia blu alta, pantografi 52, vomere giallo/nero, dep. Cremona
+powerMethod: DC
+scale: H0
+deliveryDate: '2006'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 314
+  series: Navetta Ricostruite
+  railway: FS
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

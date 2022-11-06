@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60195'
+description: Livrea di origine rosso/grigio, numeri anteriori bianchi e pantografo 52 strisciante di origine (69195 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E444R
+  roadNumber: E444R 061
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

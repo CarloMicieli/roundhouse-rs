@@ -1,0 +1,29 @@
+brand: Comofer
+itemNumber: '200805'
+description: Verde mancorrenti senza battipiede, cerchioni bianchi, costr. IMER, dep. Milano Sm.
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: '245'
+  roadNumber: 245 2145
+  series: serie 2100 a bielle
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1003'
+description: Isabella/verde, 2 fanali, costruzione FIAT, dep. Taranto
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: D341
+  roadNumber: D341 1062
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: III/IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

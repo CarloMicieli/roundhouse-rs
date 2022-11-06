@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2876
+description: |
+  Locomotiva elettrica E632 con pantografi 52, livrea blu/grigia con logo FS aa losanga, reostato Fusani
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E632
+  roadNumber: ''
+  series: ''
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 200
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2731D
+description: XMPR FS Trenitalia, tetto argento, resp. rettangolari, O.M.L. Firenze
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 137
+  series: seconda serie trasformate Navetta
+  railway: FS
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Firenze
+  length: 0
+  livery: XMPR
+  control: DCC
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

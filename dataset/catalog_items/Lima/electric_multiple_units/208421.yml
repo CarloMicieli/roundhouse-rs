@@ -1,0 +1,50 @@
+brand: Lima
+itemNumber: '208421'
+description: |
+  Verde/grigio, 1a serie, finestrini lunghi, nuovi pittogrammi, scaricatori a corna
+powerMethod: DC
+scale: H0
+deliveryDate: '1994'
+count: 2
+rollingStocks:
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 032
+  series: 
+  railway: FS
+  epoch: IV/V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 601'
+  roadNumber: Le 601 007
+  series: 
+  railway: FS
+  epoch: IV/V
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Black Star/REE Modeles
+itemNumber: BS00013
+description: FS livrea nera, telaio rosso vagone, dep. Livorno (S DCC Sound, fumogeno)
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: '831'
+  roadNumber: 831 004
+  series: (ex S100 USATC)
+  railway: FS?
+  epoch: IIIa
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

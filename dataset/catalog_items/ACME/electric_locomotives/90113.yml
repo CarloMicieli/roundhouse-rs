@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '90113'
+description: E655 Cargo blu/grigio, logo Trenitalia, senza fregio cab. A, smorz., condiz., antenne, dep. La Spezia
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E655 054
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60085'
+description: Livrea sperimentale giallo/rosso tetto nero, scritte E656 1A / 1B su respingenti, serie speciale
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

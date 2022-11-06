@@ -1,0 +1,29 @@
+brand: Comofer
+itemNumber: '200804'
+description: Verde mancorrenti senza battipiede, costruzione Ferrosud, dep. Cuneo
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: '245'
+  roadNumber: 245 2217
+  series: serie 2100 a bielle
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2461
+description: Castano/isabella, fanali alti, ripetizione segnali, separatore, dep. Bologna C. (HR2462 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E326
+  roadNumber: E326 002
+  series: ''
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Bologna Centrale
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

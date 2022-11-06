@@ -1,0 +1,29 @@
+brand: Lineamodel/Safer
+itemNumber: LMS F2035-M
+description: Kit 245 verde mancorrenti con battipiede, vernici Lineamodel, motore Faulhaber
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: '245'
+  roadNumber: ''
+  series: serie 0000 Badoni
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

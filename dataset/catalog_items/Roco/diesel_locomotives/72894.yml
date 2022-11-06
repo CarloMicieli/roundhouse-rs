@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '72894'
+description: Serie 2000 Breda, vetri curvi, modanature, griglia squadrata, 2 scarichi centrali, dep. Roma S.L.
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 2010
+  series: ''
+  railway: FS?
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

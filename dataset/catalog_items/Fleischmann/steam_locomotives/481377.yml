@@ -1,0 +1,29 @@
+brand: Fleischmann
+itemNumber: '481377'
+description: Nera telaio rosso vagone, targhe, DCC Sound, base smartRail Z21
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: '626'
+  roadNumber: 626 007
+  series: (ex P6 KPEV)
+  railway: FS?
+  epoch: IIb
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

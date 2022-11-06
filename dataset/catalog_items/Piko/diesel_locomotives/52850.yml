@@ -1,0 +1,29 @@
+brand: Piko
+itemNumber: '52850'
+description: Arancio fasce gialle, logo inclinato, corrimani con battipiede (52851 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: D145
+  roadNumber: D145 2029
+  series: Serie 2000 TIBB
+  railway: FS?
+  epoch: IV/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

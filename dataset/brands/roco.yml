@@ -1,0 +1,28 @@
+name: Roco
+registeredCompanyName: Modelleisenbahn GmbH
+groupName: modelleisenbahn
+description: |
+  ROCO offre a principianti ed esperti un hobby stimolante e mette in contatto le generazioni. I modelli prototipali 
+  stabiliscono nuovi standard per il valore ludico creativo di tutti gli appassionati di modellismo ferroviario. 
+  Questa grande attenzione ai dettagli è ulteriormente sottolineata dalla massima affidabilità e funzionalità. 
+  ROCO garantisce il puro divertimento del modellismo ferroviario e si caratterizza soprattutto per le costanti 
+  innovazioni tecniche nella digitalizzazione dei modelli ferroviari.
+address:
+  streetAddress: Plainbachstraße 4
+  extendedAddress: 
+  postalCode: A-5101
+  city: Bergheim
+  region: 
+  country: at
+contactInfo:
+  email: webshop@roco.cc
+  websiteUrl: https://www.roco.cc
+  phone: 
+social:
+  instragram: rococc
+  facebook: roco.cc
+  youtube: UCmPH1NgeyzOCKxfH3uP-wsQ
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

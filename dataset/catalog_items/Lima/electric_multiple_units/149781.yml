@@ -1,0 +1,111 @@
+brand: Lima
+itemNumber: '149781'
+description: |
+ 	Set 5 elementi livrea Alitalia bianca fascia verde (art. 208353 + 2x 309658 + 208354)
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 5
+rollingStocks:
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 050
+  series: prima serie
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 601'
+  roadNumber: Le 601 011
+  series: 
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 481'
+  roadNumber: Le 481 003
+  series: 
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 481'
+  roadNumber: Le 481 003
+  series: 
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 601'
+  roadNumber: ALe 601 055
+  series: prima serie
+  railway: FS
+  epoch: Va
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 0
+  livery: Alitalia
+  control: 
+  dccInterface: 
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

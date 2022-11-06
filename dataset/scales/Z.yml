@@ -1,0 +1,9 @@
+name: Z
+description:
+ratio: 220
+gauge:
+  millimeters: 6.5
+  inches: 0.256
+  trackGauge: STANDARD
+standards:
+  - NEM

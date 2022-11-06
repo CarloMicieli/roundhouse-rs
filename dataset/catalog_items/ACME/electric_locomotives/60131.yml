@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60131'
+description: |
+  Locomotiva elettrica FS E.646 199 (2a serie) nella livrea verde/grigio navetta senza modanature, 
+  finestrino laterale modificato, filetto verde sottile.
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 199
+  series: seconda serie
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano
+  length: 210
+  livery: verde/grigio
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

@@ -1,0 +1,29 @@
+brand: ATM
+itemNumber: 07
+description: Livrea isabella fasce rosse, telaio castano con modanature, carenature complete, fregio alato
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: D442
+  roadNumber: D442 4001
+  series: ''
+  railway: FS?
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60309'
+description: |
+  Locomotiva elettrica FS E 447 074 in livrea di origine blu orientale/grigio perla senza modanature, 
+  strisciante curvo, dopo la modifica del rapporto di trasmissione avvenuta nel 1986.
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E447
+  roadNumber: E447 074
+  series: ''
+  railway: FS
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 195
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

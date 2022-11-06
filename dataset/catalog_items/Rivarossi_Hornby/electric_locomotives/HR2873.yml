@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2873
+description: |
+  Locomotiva elettrica E424 nella livrea castano/isabella, Breda, doppio coprigiunto, gocciolatoio frontale
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: ''
+  series: ''
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 178
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

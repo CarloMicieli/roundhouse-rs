@@ -1,0 +1,29 @@
+brand: Piko
+itemNumber: '55912'
+description: Livrea verde fasce gialle, corrimani gialli senza battipiede, senza griglie, DCC Sound, ganci digit.
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: D141
+  roadNumber: D141 1023
+  series: ''
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

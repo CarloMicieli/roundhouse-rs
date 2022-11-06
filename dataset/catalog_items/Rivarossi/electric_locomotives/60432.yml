@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: '60432'
+description: Castano/isabella, coprigiunto basso, condotta servizi, telaio lungo, pantografi 42LR, dep. La Spezia
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 088
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

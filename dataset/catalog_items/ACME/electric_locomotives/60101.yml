@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60101'
+description: |
+  Locomotiva elettrica FS E.444 003 nella livrea blu/grigio senza modanature, fine anni 80, pantografi Sommerfeldt. 
+  Articolo in edizione limitata e certificata.
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 003
+  series: prototipo
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Roma San Lorenzo
+  length: 195
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

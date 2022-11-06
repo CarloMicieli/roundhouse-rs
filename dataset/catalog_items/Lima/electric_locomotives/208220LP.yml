@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: 208220LP
+description: Rosso/grigio, marcatura bianca, logo FS con sfondo rosso, dep. Firenze, pantografi Sommerfeldt
+powerMethod: DC
+scale: H0
+deliveryDate: '1991'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E444 046
+  series: PROTOTIPO
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

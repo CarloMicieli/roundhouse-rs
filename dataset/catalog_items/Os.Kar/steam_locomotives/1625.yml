@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1625'
+description: Versione attuale storica, fanali a petrolio, ruotino a vela piena, dep. Bologna
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: '625'
+  roadNumber: 625 100
+  series: ''
+  railway: FS?
+  epoch: Vm
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

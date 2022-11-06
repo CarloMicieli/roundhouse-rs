@@ -1,0 +1,29 @@
+brand: Lima/Hornby
+itemNumber: HL2037
+description: Verde/isabella motorizzazione cardanica Hobby Line
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: D445
+  roadNumber: D445 1017
+  series: ''
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

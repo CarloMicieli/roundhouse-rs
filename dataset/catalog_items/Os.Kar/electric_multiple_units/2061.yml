@@ -1,0 +1,54 @@
+brand: Os.Kar
+itemNumber: '2061'
+description: |
+  Elettromotrice Ale.540 013 e rimorchiata Le.760 003, FS
+  Elettromotrice Ale.540 013 con rimorchiata Le.760 003 delle Ferrovie dello Stato. Epoca IV.
+  Nella livrea castano isabella, il modello è dotato di illuminazione interna di serie, decoder Plux22 con predisposizione sonoro.
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 2
+rollingStocks:
+- typeName: 'ALe 540'
+  roadNumber: ALe 540 013
+  series: seconda serie
+  railway: FS
+  epoch: IVa
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  serviceLevel: 1cl
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: PLUX_22
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'Le 760'
+  roadNumber: Le 760 010
+  series: 
+  railway: FS
+  epoch: IVa
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  serviceLevel: 1cl
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

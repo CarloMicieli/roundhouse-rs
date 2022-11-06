@@ -1,0 +1,29 @@
+brand: Fleischmann
+itemNumber: '421684'
+description: FS livrea castano/isabella, bielle rosse, DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: D236
+  roadNumber: 236 002
+  series: ex V36 DB
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

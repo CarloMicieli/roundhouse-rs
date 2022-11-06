@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2805D
+description: |
+  Locomotiva elettrica E 402B 165 nella livrea ex “Frecciabianca” bianco/grigio scuro fasce rosse, senza scritte
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 165
+  series: ''
+  railway: FS
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 223
+  livery: bianco/grigio scuro fasce rosse
+  control: DCC
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

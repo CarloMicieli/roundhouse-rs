@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: 0418
+description: Set Rapido R51, E428 + 1959 2a cl. grigio ardesia + 1959 2a cl. Treno Azzurro + ristorante CIWL blu
+powerMethod: DC
+scale: H0
+deliveryDate: '1999'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 143
+  series: TERZA SERIE semiaerodinamica
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

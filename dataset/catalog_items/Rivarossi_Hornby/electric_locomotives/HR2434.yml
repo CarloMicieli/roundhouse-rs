@@ -1,0 +1,49 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2434
+description: Set due E402A, livrea di origine bianco/rosso, pantografi 52/92 + livrea XMPR nuovo logo Trenitalia, pantografi 52/92, logo SCMT, OML Mestre, entrambe motorizzate
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 2
+rollingStocks:
+- typeName: E402 A
+  roadNumber: E402 045
+  series: ''
+  railway: FS
+  epoch: V+VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: E402 A
+  roadNumber: E402 025
+  series: ''
+  railway: FS
+  epoch: V+VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO    
+version: 1

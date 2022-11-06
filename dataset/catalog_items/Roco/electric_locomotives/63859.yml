@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '63859'
+description: XMPR con terzo faro centrale, coprigiunto alto, boccole a rulli, pantografi 52, dep. Livorno
+powerMethod: DC
+scale: H0
+deliveryDate: '2006'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 276
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

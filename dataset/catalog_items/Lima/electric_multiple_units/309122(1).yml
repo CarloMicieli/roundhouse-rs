@@ -1,0 +1,30 @@
+brand: Lima
+itemNumber: '309122(1)'
+description: |
+  Rimorchiata, verde/grigio con riga rossa, finestrini frontali piccoli
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: 'Le 601'
+  roadNumber: Le 601 025
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 0
+  livery: verde/grigio
+  control: 
+  dccInterface: 
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

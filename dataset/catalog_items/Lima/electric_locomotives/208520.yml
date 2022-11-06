@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: '208520'
+description: Blu/grigio pantografi Faiveley, dep. Genova Brignole
+powerMethod: DC
+scale: H0
+deliveryDate: '1996'
+count: 1
+rollingStocks:
+- typeName: E633
+  roadNumber: E633 015
+  series: ''
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

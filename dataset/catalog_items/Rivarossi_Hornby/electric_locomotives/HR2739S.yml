@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2739S
+description: Castano/isabella, pantografi 42U, rapporto corto, stato di origine
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 033
+  series: prima serie
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: DCC_SOUND
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

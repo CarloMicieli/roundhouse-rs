@@ -1,0 +1,23 @@
+name: SBB CFF FFS
+registeredCompanyName: Schweizerische BundesBahnen
+country: ch
+periodOfActivity:
+  operatingSince: 1902
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 5200
+  miles:
+contactInfo:
+  websiteUrl: https://www.sbb.ch
+social:
+  facebook: sbb.cff.ffs.ch
+  instagram: sbbcffffs
+  linkedin: sbb
+  twitter: RailService
+  youtube: sbbcffffs
+headquarters: Bern
+version: 1

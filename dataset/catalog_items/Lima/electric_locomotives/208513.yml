@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: '208513'
+description: Castano/isabella, vomeri, scalette e corrimani su bagagliaio, dep. Alessandria
+powerMethod: DC
+scale: H0
+deliveryDate: '1995'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 132
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

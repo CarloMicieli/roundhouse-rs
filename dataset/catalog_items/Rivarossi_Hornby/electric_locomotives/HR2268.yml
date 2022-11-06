@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2268
+description: |
+  Locomotiva elettrica E428 044 nella livrea castano/isabella, prese aria basse e su avancorpo posteriore, 
+  tamponi in gomma, dep. Mestre
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 044
+  series: prima serie con avancorpi
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Mestre
+  length: 222
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 2

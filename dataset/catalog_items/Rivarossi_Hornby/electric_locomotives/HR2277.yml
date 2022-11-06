@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2277
+description: E447 Blu orientale/grigio perla, senza modanature, smorzatori, strisciante piatto, DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: E444
+  roadNumber: E447 074
+  series: ''
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: blu orientale/grigio perla
+  control: DCC_SOUND
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2246
+description: Rosso/bianco, livrea di origine, pantografi 52/92
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: E402 A
+  roadNumber: E402 006
+  series: ''
+  railway: FS
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: rosso/bianco
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

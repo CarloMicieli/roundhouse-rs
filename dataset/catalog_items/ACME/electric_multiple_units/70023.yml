@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '70023'
+description: Carrozza ristorante per ETR500 “AV” grigio/argento, logo FS Trenitalia verde/blu (carrozza 5)
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 889 019-6
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: ELECTRIC_MULTIPLE_UNITS
+  depot: ''
+  length: 303
+  livery: 'livrea “AV” grigio/argento'
+  serviceLevel: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

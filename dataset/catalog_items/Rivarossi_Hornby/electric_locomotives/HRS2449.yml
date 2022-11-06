@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HRS2449
+description: Museale verde/grigio con baffo verde frontale, dep. Milano Sm.to, ed. speciale Hornby Club
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 158
+  series: SECONDA SERIE Trasformate Navetta
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

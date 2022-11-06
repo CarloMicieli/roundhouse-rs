@@ -1,0 +1,51 @@
+brand: ACME
+itemNumber: '70072'
+description: Carrozza intermedia per ETR500 Y1 RFI, in livrea blu/bianco, decal per carrozze 1 e 8
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 2
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 70 83 17-98 500-8
+  series: Diagnostici
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 70 83 17-98 504-0
+  series: Diagnostici
+  railway: FS
+  epoch: VI
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: ''
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2018
+description: Verde fasce gialle, mancorrenti con battipiede, logo XMPR, respingenti rettangolari
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: '245'
+  roadNumber: 245 6040
+  series: unificate serie 1000-2000-6000
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

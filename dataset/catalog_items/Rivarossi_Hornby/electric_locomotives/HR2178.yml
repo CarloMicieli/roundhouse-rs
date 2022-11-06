@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2178
+description: |
+  Locomotiva elettrica E428 225 nella livrea castano/isabella, ruote con tamponi in gomma, carrelli Ap 1110, 
+  dep. Bologna S. D., DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 225
+  series: quarta serie aerodinamica
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Bologna San Donato
+  length: 222
+  livery: castano/isabella
+  control: DCC_SOUND
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 1

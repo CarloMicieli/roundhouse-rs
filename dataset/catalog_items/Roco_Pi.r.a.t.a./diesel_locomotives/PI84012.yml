@@ -1,0 +1,29 @@
+brand: Roco/Pi.r.a.t.a.
+itemNumber: PI84012
+description: Serie 2000, vetri piani, griglia squadrata, fregio verde, dep. Fabriano, nuova PCB
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: D343
+  roadNumber: D343 2029
+  series: ''
+  railway: FS?
+  epoch: ''
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

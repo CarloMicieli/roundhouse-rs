@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: 4187B
+description: JZ Ferrovie jugoslave, livrea verde oliva/marrone, ex E626 3a serie
+powerMethod: DC
+scale: H0
+deliveryDate: '1980'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: 361 102
+  series: TERZA SERIE
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

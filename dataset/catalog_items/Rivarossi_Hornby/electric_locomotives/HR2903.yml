@@ -1,0 +1,30 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2903
+description: |
+  Locomotiva elettrica E428, TIBB con chiodature frontali, ruote motrici con smorzatori a tamponi in gomma, carrelli Ap1110, ep.IVb
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: ''
+  series: quarta serie aerodinamica
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 222
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 2

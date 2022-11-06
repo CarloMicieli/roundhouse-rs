@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60430'
+description: Livrea blu/grigio, coprigiunto basso, moderabile, pantografi 42LR, dep. Verona (69430 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 080
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

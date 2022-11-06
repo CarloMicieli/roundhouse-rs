@@ -1,0 +1,9 @@
+name: Ne
+description:
+ratio: 160
+gauge:
+  millimeters: 4.5
+  inches: 
+  trackGauge: NARROW
+standards:
+  - NEM

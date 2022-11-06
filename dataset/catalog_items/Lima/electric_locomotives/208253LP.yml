@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: 208253LP
+description: Castano/isabella con modanature deposito di Verona
+powerMethod: DC
+scale: H0
+deliveryDate: '1991'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 059
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

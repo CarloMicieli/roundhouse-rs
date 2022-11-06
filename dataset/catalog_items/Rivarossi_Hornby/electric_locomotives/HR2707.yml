@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2707
+description: MDVE grigio/rosso/arancio, finestrini di origine, pantografi 52, vomere giallo/nero, dep. Ancona
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 350
+  series: Navetta Ricostruite
+  railway: FS
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Ancona
+  length: 0
+  livery: MDVE grigio/rosso/arancio
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

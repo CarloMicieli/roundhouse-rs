@@ -1,0 +1,33 @@
+brand: ViTrains
+itemNumber: '3187'
+description: |
+  Rimorchiata Le 840 per elettromotrici ALe 840 nella livrea castano/isabella, finestrini Klein con ghiere dei fari in alluminio.
+  Respingenti molleggiati, illuminazione interna a Led, fari illuminati con led bianchi o rossi secondo il senso di marcia con decoder 
+  funzioni DCC integrato, presa corrente su tutte le ruote, assali d'ottone torniti e nichelato, telaio in metallo, carrelli 
+  particolareggiati e perfettamente in scala. 
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: 'Le 840'
+  roadNumber: Le 840 045
+  series: 
+  railway: FS
+  epoch: IV
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 322
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

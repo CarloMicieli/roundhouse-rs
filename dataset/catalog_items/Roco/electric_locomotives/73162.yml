@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '73162'
+description: Blu/grigio, 12 sabbiere, senza smorzatori, scritte gialle, strisc. curvi, dep. Torino (73163 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 072
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

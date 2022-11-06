@@ -1,0 +1,20 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+authors = ["CarloMicieli <piovarolo@gmail.com>"]
+license = "MIT"
+rust-version = "1.64"
+
+[dependencies]
+chrono = { workspace = true }
+isocountry = { workspace = true }
+rust_decimal = { workspace = true }
+rust_decimal_macros = { workspace = true }
+serde = { workspace = true }
+slug = { workspace = true }
+url = { workspace = true }
+
+[dev-dependencies]
+pretty_assertions = { workspace = true }
+serde_json = { workspace = true }

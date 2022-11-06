@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '63451'
+description: Verde/isabella, vetri piani, deposito Alessandria
+powerMethod: DC
+scale: H0
+deliveryDate: '2002'
+count: 1
+rollingStocks:
+- typeName: D345
+  roadNumber: D345 1052
+  series: ''
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

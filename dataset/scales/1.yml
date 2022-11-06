@@ -1,0 +1,9 @@
+name: 1
+description:
+ratio: 32
+gauge:
+  millimeters: 45
+  inches: 1.772
+  trackGauge: STANDARD
+standards:
+  - NEM

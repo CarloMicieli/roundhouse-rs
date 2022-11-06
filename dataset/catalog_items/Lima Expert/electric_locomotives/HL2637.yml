@@ -1,0 +1,29 @@
+brand: Lima Expert
+itemNumber: HL2637
+description: Cast./isa., fregio alato castano, vomeri giallo/nero, vetri Triplex, portelloni bassi, dep. MI Sm.
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 101
+  series: serie 100 (ex E646 prototipo)
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

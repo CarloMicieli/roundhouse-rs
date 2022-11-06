@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE20510
+description: Avancorpi IV serie, porta metallica, fanali moderni, pant. 42LR, dep. BO S. D. (S DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E626
+  roadNumber: E626 089
+  series: SECONDA SERIE RICOSTRUITA
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

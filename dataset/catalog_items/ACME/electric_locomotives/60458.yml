@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60458'
+description: Livrea storica blu/grigio, vomere giallo, logo Trenitalia, pantografi 52 strisc. piano (69458 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 117
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: Vb/VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

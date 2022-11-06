@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '41287'
+description: Start set DCC, E444R rosso/grigio (varie num.)+4 Eurofima C1 (1a cl.+3 2a cl.), multiMaus,binari
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: E444R
+  roadNumber: ''
+  series: ''
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

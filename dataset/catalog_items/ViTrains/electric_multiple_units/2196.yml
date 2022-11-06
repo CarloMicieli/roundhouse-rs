@@ -1,0 +1,31 @@
+brand: ViTrains
+itemNumber: '2196'
+description: |
+  ALe 840 costruzione Ocren, castano/isabella, pantografi 42LR, non motorizzata
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: 'ALe 840'
+  roadNumber: ALe 840 012
+  series: 
+  railway: FS
+  epoch: IIIb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 325
+  livery: castano/isabella
+  control: ''
+  dccInterface: ''
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60042'
+description: FER bianco/rosso/verde, pantografi Sommerfeldt
+powerMethod: DC
+scale: H0
+deliveryDate: '2006'
+count: 1
+rollingStocks:
+- typeName: E464
+  roadNumber: E464 902 ER
+  series: ''
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

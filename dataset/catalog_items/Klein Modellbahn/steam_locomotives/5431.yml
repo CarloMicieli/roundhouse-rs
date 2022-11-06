@@ -1,0 +1,29 @@
+brand: Klein Modellbahn
+itemNumber: '5431'
+description: Nera telaio rosso, cerchioni bianchi, Museo ferroviario di Trieste
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: '728'
+  roadNumber: 728 022
+  series: (ex BR 156 ÖBB / 270 K.k.St.B.)
+  railway: FS?
+  epoch: Vm
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

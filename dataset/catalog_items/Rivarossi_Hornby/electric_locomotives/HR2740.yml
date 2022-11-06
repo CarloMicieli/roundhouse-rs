@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2740
+description: Verde magnolia/grigio nebbia di origine, senza fregio FS, pantografi 42LR
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 019
+  series: prima serie
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: verde magnolia/grigio nebbia
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

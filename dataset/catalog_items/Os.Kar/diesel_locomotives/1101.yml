@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1101'
+description: Verde/isabella, vetri piani, costruzione FIAT, deposito Bari
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: D443
+  roadNumber: D443 1013
+  series: ''
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

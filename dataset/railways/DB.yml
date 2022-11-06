@@ -1,0 +1,23 @@
+name: DB
+registeredCompanyName: Deutsche Bahn AG
+country: de
+periodOfActivity:
+  operatingSince: 1994-01-01
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 
+  miles:
+contactInfo:
+  websiteUrl: https://www.deutschebahn.com
+social:
+  facebook:
+  instagram: deutschebahn
+  linkedin: deutschebahn
+  twitter: db_presse
+  youtube: deutschebahnkonzern
+headquarters: Berlin
+version: 1

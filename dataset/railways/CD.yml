@@ -1,0 +1,23 @@
+name: ČD
+registeredCompanyName: České dráhy
+country: cz
+periodOfActivity:
+  operatingSince: 1993
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: STANDARD
+  meters: 1.435
+length:
+  kilometers: 9412
+  miles: 5848
+contactInfo:
+  websiteUrl: https://www.cd.cz
+social:
+  facebook: ceskedrahy
+  instagram: ceskedrahy
+  linkedin: ceskedrahy
+  twitter: ceskedrahy_
+  youtube: zeleznicarCD
+headquarters: Prague
+version: 1

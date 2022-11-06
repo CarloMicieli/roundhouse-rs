@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '62224'
+description: Nero telaio rosso vagone, nuova edizione, interfaccia DCC
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: '473'
+  roadNumber: 473 005
+  series: (ex BR 57 DB / G10 KPEV)
+  railway: FS?
+  epoch: II/III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

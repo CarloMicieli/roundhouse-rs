@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2180
+description: MDVC beige fasce arancio/viola, tetto argento, dep. Firenze
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 135
+  series: seconda serie trasformate Navetta
+  railway: FS
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Firenze
+  length: 0
+  livery: MDVC beige fasce arancio/viola
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

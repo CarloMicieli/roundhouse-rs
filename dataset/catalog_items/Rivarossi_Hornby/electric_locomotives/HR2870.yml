@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2870
+description: |
+  Locomotiva elettrica E.645 di 2a serie, livrea castano/isabella con modanature in alluminio e carrelli neri, 
+  scalette grandi
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 051
+  series: SECONDA SERIE
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Verona
+  length: 211
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

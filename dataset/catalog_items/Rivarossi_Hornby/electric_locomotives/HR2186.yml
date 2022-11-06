@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2186
+description: Castano/isabella con citofono 'Perego', doppio coprigiunto, vomere castano, dep. La Spezia
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 108
+  series: ''
+  railway: FS
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: La Spezia
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

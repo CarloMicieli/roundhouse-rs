@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: '208609'
+description: XMPR1 sperimentale, telaio blu, pantografi 52, reostato Fusani, dep. Milano C.le
+powerMethod: DC
+scale: H0
+deliveryDate: '1997'
+count: 1
+rollingStocks:
+- typeName: E632
+  roadNumber: E632 034
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

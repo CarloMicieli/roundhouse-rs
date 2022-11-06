@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60082'
+description: XMPR Trenitalia, vomeri giallo/nero, smorzatori, condizionatori, antenne sul tetto, resp. tondi
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 063
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

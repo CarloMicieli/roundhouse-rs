@@ -1,0 +1,52 @@
+brand: ACME
+itemNumber: '70016'
+description: |
+  Coppia di elettromotrici tipo ALe 880 070 + Le 880 071 in livrea grigio rosso esposizione New York 1939. 
+  Illuminazione interna di serie. Articolo in Edizione limitata.
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 2
+rollingStocks:
+- typeName: 'ALe 88'
+  roadNumber: ALe 88 0070
+  series: 
+  railway: FS
+  epoch: IIb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 313
+  livery: grigio/rosso
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: 'ALe 88'
+  roadNumber: ALe 88 0071
+  series: 
+  railway: FS
+  epoch: IIb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: POWER_CARS
+  depot: ''
+  length: 313
+  livery: grigio/rosso
+  control: ''
+  dccInterface: ''
+  dummy: 'YES'
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

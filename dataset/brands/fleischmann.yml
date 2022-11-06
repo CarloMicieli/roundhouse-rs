@@ -1,0 +1,23 @@
+name: Fleischmann
+registeredCompanyName: Modelleisenbahn GmbH
+groupName: modelleisenbahn
+description: 
+address:
+  streetAddress: Plainbachstraße 4
+  extendedAddress: 
+  postalCode: A-5101
+  city: Bergheim
+  region: 
+  country: at
+contactInfo:
+  email: 
+  websiteUrl: https://www.fleischmann.de
+  phone: 
+social:
+  instragram: fleischmannde
+  facebook: Fleischmann.de
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

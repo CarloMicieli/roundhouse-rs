@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60136'
+description: MDVC beige/arancio/viola, tetto grigio, gocciolatoio, rettangolo arancio, fregio viola, dep. Ancona
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 056
+  series: SECONDA SERIE Trasformate Navetta
+  railway: FS?
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

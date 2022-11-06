@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60252'
+description: Verde fasce gialle, telaio verde, dep. loc. Genova B.
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: D143
+  roadNumber: D143 3029
+  series: ''
+  railway: FS?
+  epoch: IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 153
+  livery: verde con fasce gialle
+  control: DCC_READY
+  dccInterface: NEM_651
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

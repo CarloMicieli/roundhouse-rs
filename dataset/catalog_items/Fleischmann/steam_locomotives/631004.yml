@@ -1,0 +1,29 @@
+brand: Fleischmann
+itemNumber: '631004'
+description: Start set Gr. 675 + 3 carri merci a 2 assi, trasformatore + binari
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: '675'
+  roadNumber: 675 012
+  series: (ex BR 38 DB / P8 KPEV)
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: STEAM_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

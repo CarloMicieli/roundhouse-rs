@@ -1,0 +1,9 @@
+name: Nm
+description:
+ratio: 160
+gauge:
+  millimeters: 6.5
+  inches: 
+  trackGauge: NARROW
+standards:
+  - NEM

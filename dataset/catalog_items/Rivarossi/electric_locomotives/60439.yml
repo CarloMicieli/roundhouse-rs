@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: '60439'
+description: Reostatica, cast./isa., senza gocciolatoio, telaio lungo, pant. 42LR, dep. Bologna S.D. (69435 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 082
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

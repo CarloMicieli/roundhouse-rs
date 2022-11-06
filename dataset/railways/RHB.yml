@@ -1,0 +1,23 @@
+name: RhB
+registeredCompanyName: Rhätische Bahn AG
+country: ch
+periodOfActivity:
+  operatingSince: 1885
+  operatingUntil:
+  status: ACTIVE
+gauge:
+  trackGauge: NARROW
+  meters: 1.000
+length:
+  kilometers: 384
+  miles: 238.6
+contactInfo:
+  websiteUrl: https://www.rhb.ch
+social:
+  facebook: rhaetischebahn
+  instagram: rhaetischebahn
+  linkedin: rhätischebahnag
+  twitter: rhaetischebahn
+  youtube: rhaetischebahn
+headquarters: Chur
+version: 1

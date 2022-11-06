@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2877
+description: Set automotore ABL “Sogliola” Agip livrea gialla + 2 carri cisterna a 2 assi (D DCC)
+powerMethod: DC
+scale: H0
+deliveryDate: '2021'
+count: 1
+rollingStocks:
+- typeName: 206 / 207 / 208 Sogliola
+  roadNumber: '-'
+  series: ''
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

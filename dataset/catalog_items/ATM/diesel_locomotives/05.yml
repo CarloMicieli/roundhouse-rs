@@ -1,0 +1,29 @@
+brand: ATM
+itemNumber: 05
+description: Castano/isabella, telaio rosso, 3 fanali, modanature, deposito Siena
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 2001
+  series: BREDA PROTOTIPO
+  railway: FS?
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

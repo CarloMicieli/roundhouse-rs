@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60153'
+description: |
+  Locomotiva elettrica E.646 006 di 1a serie nella livrea di origine verde-magnolia e grigio-medio con logo FS anteriore grande, 
+  pantografi 42LR, scalette piccole. 
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 006
+  series: PRIMA SERIE
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: 
+  length: 210
+  livery: verde/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

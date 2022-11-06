@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: R1414
+description: Livrea d'origine grigio fascia verde, OML Napoli Sm.
+powerMethod: DC
+scale: H0
+deliveryDate: '2001'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 120
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '72663'
+description: E655 XMPR, logo Trenitalia verde/rosso, vomeri giallo/nero, resp. tondi, traffico per Slovenia
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E655 047
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

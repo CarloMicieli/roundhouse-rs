@@ -1,0 +1,53 @@
+brand: ACME
+itemNumber: '70153'
+description: ETR500 monotensione, set intermedia 1a classe (carrozza 1) + intermedia 2a classe (carrozza 11), livrea bianco/verde, logo FS Trenitalia
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 2
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 199 041-5
+  series: MONOTENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: 'livrea di origine bianco/verde'
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 299 141-2
+  series: MONOTENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: 'livrea di origine bianco/verde'
+  serviceLevel: 2cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

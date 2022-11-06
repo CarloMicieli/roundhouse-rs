@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: RT400002
+description: Livrea storica castano/isabella con modanature dipinte, dep. Milano Smistamento
+powerMethod: DC
+scale: H0
+deliveryDate: '2003'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 082
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: Vm
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

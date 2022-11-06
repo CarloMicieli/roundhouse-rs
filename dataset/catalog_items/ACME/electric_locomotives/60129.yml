@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60129'
+description: Cast./isa., modanature, scalette larghe, tientibene corti, prese aria origine (69129 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 064
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2710
+description: |
+  Locomotiva elettrica E 428 014 nella livrea castano/isabella, con prese d'aria laterali di tipo alto e tiranteria freni esterna, 
+  tamponi in gomma, deposito di Bologna San Donato.
+powerMethod: DC
+scale: H0
+deliveryDate: '2018'
+count: 1
+rollingStocks:
+- typeName: E428
+  roadNumber: E428 014
+  series: prima serie con avancorpi
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Bologna San Donato
+  length: 222
+  livery: castano/isabella
+  control: DCC_SOUND
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: YES
+version: 2

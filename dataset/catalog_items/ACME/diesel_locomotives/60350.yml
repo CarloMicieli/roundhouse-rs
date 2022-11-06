@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '60350'
+description: |
+  Castano/isabella, telaio rosso, porta frontale, 2 fanali, modanature
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 2001
+  series: BREDA PROTOTIPO
+  railway: FS
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

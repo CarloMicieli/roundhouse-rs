@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '60345'
+description: |
+  Locomotiva diesel D442 4001 nella livrea isabella con fasce rosse, telaio tagliato rosso/castano con modanature
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 1
+rollingStocks:
+- typeName: D442
+  roadNumber: D442 4001
+  series: ''
+  railway: FS
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: isabella con fasce rosse
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

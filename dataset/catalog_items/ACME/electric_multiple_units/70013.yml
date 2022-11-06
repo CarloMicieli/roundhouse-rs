@@ -1,0 +1,53 @@
+brand: ACME
+itemNumber: '70013'
+description: Set intermedia 1a classe speciale/disabili (carrozza 3) + intermedia di 1a classe (carrozza 4) livrea bianco/verde, logo FS Trenitalia
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 2
+rollingStocks:
+- typeName: ETR 500
+  roadNumber: 90 83 5 899 211-7 + 90 83 5 199 236-1
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea di origine bianco/verde
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: ETR 500
+  roadNumber: 90 83 5 899 211-7 + 90 83 5 199 236-1
+  series: POLITENSIONE
+  railway: FS
+  epoch: Vb
+  category: ELECTRIC_MULTIPLE_UNITS
+  subCategory: TRAILER_CARS
+  depot: ''
+  length: 303
+  livery: livrea di origine bianco/verde
+  serviceLevel: 1cl
+  control: ''
+  dummy: ''
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

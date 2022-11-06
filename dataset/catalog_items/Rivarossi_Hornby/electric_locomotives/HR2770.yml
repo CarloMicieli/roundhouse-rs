@@ -1,0 +1,31 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2770
+description: |
+  Locomotiva E646 049 "NAVETTA" in livrea MDVC beige/arancio/viola con tetto alluminio e vetri triplex, 
+  12 sabbiere, deposito Livorno
+powerMethod: DC
+scale: H0
+deliveryDate: '2020'
+count: 1
+rollingStocks:
+- typeName: E646
+  roadNumber: E646 049
+  series: seconda serie trasformate Navetta
+  railway: FS
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Livorno
+  length: 211
+  livery: MDVC
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

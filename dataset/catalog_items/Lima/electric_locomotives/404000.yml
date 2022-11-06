@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: '404000'
+description: Castano/isabella con pezzature, dep. Pistoia, serie speciale Norisberghen
+powerMethod: DC
+scale: H0
+deliveryDate: '1995'
+count: 1
+rollingStocks:
+- typeName: E424
+  roadNumber: E424 037
+  series: ''
+  railway: FS?
+  epoch: IV/Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: ACME
+itemNumber: '60258'
+description: Livrea castano, cabina corazzata, 4 marmitte, fanali su pancone
+powerMethod: DC
+scale: H0
+deliveryDate: '2019'
+count: 1
+rollingStocks:
+- typeName: Ne 120
+  roadNumber: Ne 120 036
+  series: ''
+  railway: FS
+  epoch: IIIa
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,49 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2427
+description: Set due E402B livrea d'origine grigio fascia verde e fascia rossa frontale, 138 con scritte “Treno Multiclient” OML MI S.to + 150 ex “Francia” OML MI C.le, entrambe motorizzate
+powerMethod: DC
+scale: H0
+deliveryDate: '2013'
+count: 2
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 138
+  series: ''
+  railway: FS
+  epoch: V+VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+- typeName: E402 B
+  roadNumber: E402 150
+  series: ''
+  railway: FS
+  epoch: V+VI
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO    
+version: 1

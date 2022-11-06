@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: '208596'
+description: Blu/grigio senza baffo giallo frontale, smorzatori, dep. Bologna
+powerMethod: DC
+scale: H0
+deliveryDate: '1998'
+count: 1
+rollingStocks:
+- typeName: E656
+  roadNumber: E656 193
+  series: QUARTA SERIE
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

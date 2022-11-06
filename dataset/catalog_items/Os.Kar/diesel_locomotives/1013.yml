@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1013'
+description: Castano/isabella/rosso, costruzione Reggiane, 2 fanali
+powerMethod: DC
+scale: H0
+deliveryDate: ''
+count: 1
+rollingStocks:
+- typeName: D341
+  roadNumber: D341 5001
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: III/IVa
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

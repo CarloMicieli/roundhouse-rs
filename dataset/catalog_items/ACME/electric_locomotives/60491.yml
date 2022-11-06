@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60491'
+description: |
+  Locomotiva elettrica FS E 652.109 (Tigre) nella livrea grigio perla e blu orientale con pantografi FS 52.
+  Condotte alte, numeri grandi, deposito Napoli Sm.
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E652
+  roadNumber: E652 109
+  series: ''
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Napoli
+  length: 206
+  livery: grigio/blu
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

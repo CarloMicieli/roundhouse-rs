@@ -1,0 +1,23 @@
+name: Gützold
+registeredCompanyName: fischer-modell GmbH
+groupName: 
+description: 
+address:
+  streetAddress: Am Rott 5
+  extendedAddress: 
+  postalCode: 29439
+  city: Lüchow
+  region: 
+  country: de
+contactInfo:
+  email: info@fischer-modell.de
+  websiteUrl: https://www.guetzold.de
+  phone: 
+social:
+  instragram:
+  facebook:
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

@@ -1,0 +1,29 @@
+brand: Lima
+itemNumber: '208517'
+description: Blu/grigio pantografi 52, reostato Fusani, dep. Bologna
+powerMethod: DC
+scale: H0
+deliveryDate: '1996'
+count: 1
+rollingStocks:
+- typeName: E632
+  roadNumber: E632 056
+  series: ''
+  railway: FS?
+  epoch: IVb/V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: LE Models
+itemNumber: LE20622
+description: Cast./isa., carrelli castano, scalette larghe, trombe, prese aria origine, 28/65, pant. 42LR, dep. GE Br.
+powerMethod: DC
+scale: H0
+deliveryDate: '2016'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 227
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: IVa
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,30 @@
+brand: ACME
+itemNumber: '60067'
+description: |
+  Set D342 castano/isabella/rosso, stato di origine, 2 fanali, porta frontale, modanature, dep. Padova + carro riscaldo Vrz livrea castano
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 2
+rollingStocks:
+- typeName: D342
+  roadNumber: D342 4011 + Vrz 808 914
+  series: ANSALDO
+  railway: FS
+  epoch: IIIb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: Padova
+  length: 175
+  livery: castano/isabella/rosso
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

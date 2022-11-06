@@ -1,0 +1,29 @@
+brand: Piko
+itemNumber: '52854'
+description: Arancio fasce gialle, logo TV, SSC, marc. EVN RFI, O.M.R. Messina (52855 DCC Sound)
+powerMethod: DC
+scale: H0
+deliveryDate: '2022'
+count: 1
+rollingStocks:
+- typeName: D145
+  roadNumber: D145 2006
+  series: Serie 2000 TIBB
+  railway: FS?
+  epoch: V/VI
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

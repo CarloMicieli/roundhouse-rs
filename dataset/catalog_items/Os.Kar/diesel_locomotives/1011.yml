@@ -1,0 +1,29 @@
+brand: Os.Kar
+itemNumber: '1011'
+description: Castano/isabella/rosso, righe alluminio, costruzione FIAT, stato di origine, 2 fanali
+powerMethod: DC
+scale: H0
+deliveryDate: '2012'
+count: 1
+rollingStocks:
+- typeName: D341
+  roadNumber: D341 102
+  series: PRIMA SERIE
+  railway: FS?
+  epoch: III
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

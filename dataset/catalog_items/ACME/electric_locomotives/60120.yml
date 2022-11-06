@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60120'
+description: |
+  Locomotiva elettrica delle FS E.645 054 (seconda serie) in livrea castano e Isabella, senza modanature, 
+  con gocciolatoio e fregio rosso. Deposito Milano Smistamento, epoca IV
+powerMethod: DC
+scale: H0
+deliveryDate: '2008'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 054
+  series: seconda serie
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano Smistamento
+  length: 210
+  livery: castano/isabella
+  control: DCC_READY
+  dccInterface: NEM_652
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 2

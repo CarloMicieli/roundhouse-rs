@@ -1,0 +1,33 @@
+brand: ACME
+itemNumber: '60430'
+description: |
+  Locomotiva elettrica delle FS E636 080 nella livrea blu orientale e grigio nebbia, con coprigiunto basso, condotta servizi 
+  e pantografi Tipo FS 52. Nello stato di servizio degli anni novanta, deposito di Livorno, ep. V.
+  Scatola di pregio nei colori della macchina e libretto fotografico illustrante la storia della locomotiva. 
+  Edizione limitata con certificato.
+powerMethod: DC
+scale: H0
+deliveryDate: '2014'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 080
+  series: prima serie
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Livorno
+  length: 210
+  livery: blu/grigio
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2302
+description: Rosso/grigio, marcatura frontale bianca, striscianti piatti, dep. Milano C.le, DCC Sound
+powerMethod: DC
+scale: H0
+deliveryDate: '2011'
+count: 1
+rollingStocks:
+- typeName: E444R
+  roadNumber: E444RR 107
+  series: ''
+  railway: FS
+  epoch: Va
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano Centrale
+  length: 0
+  livery: rosso/grigio
+  control: DCC_SOUND
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

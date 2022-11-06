@@ -1,0 +1,29 @@
+brand: Roco
+itemNumber: '63856'
+description: XMPR fari rossi/verdi, terzo faro, coprigiunto alto, boccole rulli, panto. 52 strisciante piatto, dep. Udine
+powerMethod: DC
+scale: H0
+deliveryDate: '2007'
+count: 1
+rollingStocks:
+- typeName: E636
+  roadNumber: E636 219
+  series: SECONDA SERIE
+  railway: FS?
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

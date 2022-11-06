@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2170
+description: FS livrea verde fasce gialle, bielle rosse
+powerMethod: DC
+scale: H0
+deliveryDate: '2009'
+count: 1
+rollingStocks:
+- typeName: D236
+  roadNumber: 236 003
+  series: ex V36 DB
+  railway: FS?
+  epoch: III/IV
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

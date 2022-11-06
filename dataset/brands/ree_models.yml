@@ -1,0 +1,23 @@
+name: REE modeles
+registeredCompanyName: 
+groupName: 
+description: 
+address:
+  streetAddress: 
+  extendedAddress: 
+  postalCode: 
+  city: 
+  region: 
+  country: 
+contactInfo:
+  email: 
+  websiteUrl:
+  phone: 
+social:
+  instragram:
+  facebook:
+  youtube:
+  twitter:
+kind: INDUSTRIAL
+status: ACTIVE
+version: 1

@@ -1,0 +1,29 @@
+brand: Rivarossi
+itemNumber: R0006
+description: Livrea 'Trenitalia Treno Multicliente', confezione speciale per clienti con bottiglia di vino
+powerMethod: DC
+scale: H0
+deliveryDate: '2002'
+count: 1
+rollingStocks:
+- typeName: E402 B
+  roadNumber: E402 138
+  series: ''
+  railway: FS?
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY?
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

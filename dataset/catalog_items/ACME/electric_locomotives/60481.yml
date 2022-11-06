@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60481'
+description: |
+  Locomotiva elettrica FS E.645 018 con griglie laterali supplementari nella livrea isabella, fregio rosso, 
+  griglie sperimentali, pantografi 52 strisciante piano, deposito di Milano Smistamento.
+powerMethod: DC
+scale: H0
+deliveryDate: '2017'
+count: 1
+rollingStocks:
+- typeName: E645
+  roadNumber: E645 018
+  series: prima serie (ex E646)
+  railway: FS
+  epoch: V
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: Milano Smistamento
+  length: 210
+  livery: isabella
+  control: DCC_READY
+  dccInterface: MTC_21
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

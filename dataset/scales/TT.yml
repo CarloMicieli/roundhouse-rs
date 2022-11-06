@@ -1,0 +1,9 @@
+name: TT
+description:
+ratio: 120
+gauge:
+  millimeters: 12
+  inches: 0.472
+  trackGauge: STANDARD
+standards:
+  - NEM

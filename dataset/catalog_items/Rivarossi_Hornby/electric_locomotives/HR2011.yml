@@ -1,0 +1,29 @@
+brand: Rivarossi/Hornby
+itemNumber: HR2011
+description: XMPR FS Trenitalia, pantografi 52/92
+powerMethod: DC
+scale: H0
+deliveryDate: '2005'
+count: 1
+rollingStocks:
+- typeName: E402 A
+  roadNumber: E402 017
+  series: ''
+  railway: FS
+  epoch: Vb
+  category: LOCOMOTIVES
+  subCategory: ELECTRIC_LOCOMOTIVES
+  depot: ''
+  length: 0
+  livery: ''
+  control: DCC_READY
+  dccInterface: ''
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: NO
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1

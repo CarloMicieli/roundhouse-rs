@@ -1,0 +1,31 @@
+brand: ACME
+itemNumber: '60250'
+description: |
+  Locomotiva diesel FS D 143 3019 "Truman" nella livrea verde con fasce gialle e telaio nero.
+  Cabina corazzata, panconi rinforzati, dep. Roma Trastevere
+powerMethod: DC
+scale: H0
+deliveryDate: '2010'
+count: 1
+rollingStocks:
+- typeName: D143
+  roadNumber: D143 3019
+  series: ''
+  railway: FS
+  epoch: IVb
+  category: LOCOMOTIVES
+  subCategory: DIESEL_LOCOMOTIVES
+  depot: Roma Trastevere
+  length: 149
+  livery: verde con fasce gialle
+  control: DCC_READY
+  dccInterface: NEM_651
+  techSpecs:
+    minimumRadius: 360.0
+    flywheelFitted: NO
+    closeCouplers: YES
+    metalBody: NO
+    interiorLights: NO
+    lights: YES
+    springBuffers: NO
+version: 1
