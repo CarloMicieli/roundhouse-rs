@@ -9,3 +9,4 @@ pub mod power_method;
 pub mod rolling_stock;
 pub mod rolling_stock_id;
 pub mod service_level;
+pub mod tech_specs;
