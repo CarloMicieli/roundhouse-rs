@@ -1,5 +1,5 @@
 /// The length over buffer for the model.
-#[derive(Debug, Copy, Clone, PartialEq, PartialOrd)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord)]
 pub struct LengthOverBuffer(u32);
 
 impl LengthOverBuffer {

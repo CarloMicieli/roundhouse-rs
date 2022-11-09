@@ -3,7 +3,7 @@ use std::fmt::Formatter;
 use std::str;
 
 /// The control method for this railway model.
-#[derive(Debug, Copy, Clone, PartialEq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub enum Control {
     /// The model can be fitted with a dcc decoder.
     DccReady,
@@ -41,8 +41,14 @@ impl str::FromStr for Control {
     }
 }
 
+impl Control {
+    pub fn with_decoder(&self) -> bool {
+        *self == Control::Dcc || *self == Control::DccSound
+    }
+}
+
 /// NMRA and NEM Connectors for digital control (DCC)
-#[derive(Debug, Copy, Clone, PartialEq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub enum DccInterface {
     Nem651,
     Nem652,
