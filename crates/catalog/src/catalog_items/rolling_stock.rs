@@ -4,12 +4,12 @@ use crate::catalog_items::category::{
 };
 use crate::catalog_items::control::{Control, DccInterface};
 use crate::catalog_items::epoch::Epoch;
-use crate::catalog_items::length_over_buffer::LengthOverBuffer;
 use crate::catalog_items::service_level::ServiceLevel;
 use crate::catalog_items::tech_specs::TechSpecs;
 use crate::railways::railway_id::RailwayId;
+use common::length::Length;
 use std::fmt;
-use std::fmt::{write, Display, Formatter};
+use std::fmt::{Display, Formatter};
 use uuid::Uuid;
 
 #[derive(Debug, PartialEq, Eq, Clone)]
@@ -24,7 +24,7 @@ pub enum RollingStock {
         depot: Option<String>,
         livery: Option<String>,
         is_dummy: bool,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
         tech_specs: Option<TechSpecs>,
@@ -39,7 +39,7 @@ pub enum RollingStock {
         category: LocomotiveType,
         depot: Option<String>,
         livery: Option<String>,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
         tech_specs: Option<TechSpecs>,
@@ -52,7 +52,7 @@ pub enum RollingStock {
         epoch: Epoch,
         category: Option<FreightCarType>,
         livery: Option<String>,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         tech_specs: Option<TechSpecs>,
     },
     PassengerCar {
@@ -64,7 +64,7 @@ pub enum RollingStock {
         category: Option<PassengerCarType>,
         service_level: Option<ServiceLevel>,
         livery: Option<String>,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         tech_specs: Option<TechSpecs>,
     },
     Railcar {
@@ -77,7 +77,7 @@ pub enum RollingStock {
         depot: Option<String>,
         livery: Option<String>,
         is_dummy: bool,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
         tech_specs: Option<TechSpecs>,
@@ -96,7 +96,7 @@ impl RollingStock {
         depot: Option<&str>,
         livery: Option<&str>,
         is_dummy: bool,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
         tech_specs: Option<TechSpecs>,
@@ -128,7 +128,7 @@ impl RollingStock {
         category: LocomotiveType,
         depot: Option<&str>,
         livery: Option<&str>,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
         tech_specs: Option<TechSpecs>,
@@ -158,7 +158,7 @@ impl RollingStock {
         epoch: Epoch,
         category: Option<FreightCarType>,
         livery: Option<&str>,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         tech_specs: Option<TechSpecs>,
     ) -> Self {
         RollingStock::FreightCar {
@@ -183,7 +183,7 @@ impl RollingStock {
         category: Option<PassengerCarType>,
         service_level: Option<ServiceLevel>,
         livery: Option<&str>,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         tech_specs: Option<TechSpecs>,
     ) -> Self {
         RollingStock::PassengerCar {
@@ -210,7 +210,7 @@ impl RollingStock {
         depot: Option<&str>,
         livery: Option<&str>,
         is_dummy: bool,
-        length_over_buffer: Option<LengthOverBuffer>,
+        length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
         tech_specs: Option<TechSpecs>,
@@ -275,7 +275,7 @@ impl RollingStock {
         }
     }
 
-    pub fn length_over_buffer(&self) -> Option<&LengthOverBuffer> {
+    pub fn length_over_buffer(&self) -> Option<&Length> {
         match self {
             RollingStock::ElectricMultipleUnit {
                 length_over_buffer, ..

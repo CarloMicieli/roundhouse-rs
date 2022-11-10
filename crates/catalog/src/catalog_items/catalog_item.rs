@@ -54,25 +54,41 @@ impl PartialOrd for CatalogItem {
 }
 
 impl CatalogItem {
+    /// Creates a new catalog item
     pub fn new(
         brand: Brand,
         item_number: ItemNumber,
-        description: String,
+        category: Category,
+        description: Option<&str>,
+        details: Option<&str>,
         rolling_stocks: Vec<RollingStock>,
         power_method: PowerMethod,
         scale: Scale,
         delivery_date: Option<DeliveryDate>,
         count: u8,
+        metadata: Metadata,
     ) -> Self {
-        todo!()
+        CatalogItem {
+            brand,
+            item_number,
+            category,
+            description: description.map(str::to_string),
+            details: details.map(str::to_string),
+            scale,
+            power_method,
+            rolling_stocks,
+            delivery_date,
+            count,
+            metadata,
+        }
     }
 
-    /// Brand for this catalog item.
+    /// Return the Brand for this catalog item.
     pub fn brand(&self) -> &Brand {
         &self.brand
     }
 
-    /// The item number as in the corresponding brand catalog.
+    /// Return the item number as in the corresponding brand catalog.
     pub fn item_number(&self) -> &ItemNumber {
         &self.item_number
     }
@@ -202,6 +218,24 @@ mod tests {
         fn it_should_display_brand_as_string() {
             let b = Brand::new(BrandId::new("ACME"), "ACME");
             assert_eq!("ACME", b.to_string());
+        }
+    }
+
+    mod scale_tests {
+        use super::*;
+        use pretty_assertions::assert_eq;
+
+        #[test]
+        fn it_should_create_new_scales() {
+            let s = Scale::new(ScaleId::new("H0"), "H0");
+            assert_eq!(&ScaleId::new("H0"), s.id());
+            assert_eq!("H0", s.name());
+        }
+
+        #[test]
+        fn it_should_display_scale_as_string() {
+            let s = Scale::new(ScaleId::new("H0"), "H0");
+            assert_eq!("H0", s.to_string());
         }
     }
 }
