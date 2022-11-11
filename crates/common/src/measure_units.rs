@@ -11,11 +11,16 @@ pub struct MeasureUnitConverter {
 }
 
 impl MeasureUnitConverter {
+    /// Create a new measure unit converter
     pub fn new(from: MeasureUnit, to: MeasureUnit, ratio: Decimal) -> Self {
-        MeasureUnitConverter { from, to, ratio }
+        if from == to {
+            Self::same_unit(from)
+        } else {
+            MeasureUnitConverter { from, to, ratio }
+        }
     }
 
-    pub fn same_unit(mu: MeasureUnit) -> Self {
+    fn same_unit(mu: MeasureUnit) -> Self {
         MeasureUnitConverter {
             from: mu,
             to: mu,
@@ -23,16 +28,9 @@ impl MeasureUnitConverter {
         }
     }
 
+    /// Convert the input using the current measure unit converter
     pub fn convert(&self, value: Decimal) -> Decimal {
         value * self.ratio
-    }
-
-    pub fn and_then<U, F>(self, value: Decimal, op: F) -> U
-    where
-        F: FnOnce(Decimal) -> U,
-    {
-        let converted: Decimal = value * self.ratio;
-        op(converted)
     }
 }
 
@@ -62,26 +60,34 @@ impl MeasureUnit {
 
     pub fn to(&self, other: MeasureUnit) -> MeasureUnitConverter {
         match (self, other) {
-            (MeasureUnit::Inches, MeasureUnit::Millimeters) => MeasureUnitConverter::new(
-                MeasureUnit::Inches,
-                MeasureUnit::Millimeters,
-                MeasureUnit::INCHES_TO_MILLIMETERS,
-            ),
-            (MeasureUnit::Millimeters, MeasureUnit::Inches) => MeasureUnitConverter::new(
-                MeasureUnit::Millimeters,
-                MeasureUnit::Inches,
-                MeasureUnit::MILLIMETERS_TO_INCHES,
-            ),
-            (MeasureUnit::Kilometers, MeasureUnit::Miles) => MeasureUnitConverter::new(
-                MeasureUnit::Kilometers,
-                MeasureUnit::Miles,
-                MeasureUnit::KILOMETERS_TO_MILES,
-            ),
-            (MeasureUnit::Miles, MeasureUnit::Kilometers) => MeasureUnitConverter::new(
-                MeasureUnit::Miles,
-                MeasureUnit::Kilometers,
-                MeasureUnit::MILES_TO_KILOMETERS,
-            ),
+            (MeasureUnit::Inches, MeasureUnit::Millimeters) => {
+                MeasureUnitConverter::new(
+                    MeasureUnit::Inches,
+                    MeasureUnit::Millimeters,
+                    MeasureUnit::INCHES_TO_MILLIMETERS,
+                )
+            }
+            (MeasureUnit::Millimeters, MeasureUnit::Inches) => {
+                MeasureUnitConverter::new(
+                    MeasureUnit::Millimeters,
+                    MeasureUnit::Inches,
+                    MeasureUnit::MILLIMETERS_TO_INCHES,
+                )
+            }
+            (MeasureUnit::Kilometers, MeasureUnit::Miles) => {
+                MeasureUnitConverter::new(
+                    MeasureUnit::Kilometers,
+                    MeasureUnit::Miles,
+                    MeasureUnit::KILOMETERS_TO_MILES,
+                )
+            }
+            (MeasureUnit::Miles, MeasureUnit::Kilometers) => {
+                MeasureUnitConverter::new(
+                    MeasureUnit::Miles,
+                    MeasureUnit::Kilometers,
+                    MeasureUnit::MILES_TO_KILOMETERS,
+                )
+            }
             (MeasureUnit::Inches, MeasureUnit::Inches) => {
                 MeasureUnitConverter::same_unit(MeasureUnit::Inches)
             }
@@ -104,27 +110,28 @@ impl MeasureUnit {
     const KILOMETERS_TO_MILES: Decimal = dec!(0.621371);
 }
 
-// #[cfg(test)]
-// mod tests {
-//     use super::*;
-//
-//     mod measure_units_tests {
-//         use super::*;
-//
-//         #[test]
-//         fn measure_unit_symbol_should_return_the_symbol() {
-//             assert_eq!(MeasureUnit::Miles.symbol(), "mi");
-//             assert_eq!(MeasureUnit::Millimeters.symbol(), "mm");
-//             assert_eq!(MeasureUnit::Inches.symbol(), "in");
-//             assert_eq!(MeasureUnit::Kilometers.symbol(), "km");
-//         }
-//
-//         #[test]
-//         fn measure_unit_should_convert_between_units() {
-//             let converted = MeasureUnit::Inches
-//                 .to(MeasureUnit::Millimeters)
-//                 .convert(10.into());
-//             assert_eq!(converted, 0.into());
-//         }
-//     }
-// }
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    mod measure_units_tests {
+        use super::*;
+        use pretty_assertions::assert_eq;
+
+        #[test]
+        fn measure_unit_symbol_should_return_the_symbol() {
+            assert_eq!(MeasureUnit::Miles.symbol(), "mi");
+            assert_eq!(MeasureUnit::Millimeters.symbol(), "mm");
+            assert_eq!(MeasureUnit::Inches.symbol(), "in");
+            assert_eq!(MeasureUnit::Kilometers.symbol(), "km");
+        }
+
+        #[test]
+        fn measure_unit_should_convert_between_units() {
+            let converted = MeasureUnit::Inches
+                .to(MeasureUnit::Millimeters)
+                .convert(10.into());
+            assert_eq!(converted, 254.into());
+        }
+    }
+}

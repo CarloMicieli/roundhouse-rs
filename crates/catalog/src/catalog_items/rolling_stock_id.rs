@@ -13,6 +13,10 @@ impl RollingStockId {
         let id = Uuid::new_v4();
         RollingStockId(id)
     }
+
+    pub fn value(&self) -> Uuid {
+        self.0
+    }
 }
 
 impl fmt::Display for RollingStockId {
@@ -32,6 +36,12 @@ impl str::FromStr for RollingStockId {
     }
 }
 
+impl From<Uuid> for RollingStockId {
+    fn from(id: Uuid) -> Self {
+        RollingStockId(id)
+    }
+}
+
 #[cfg(test)]
 mod test {
     use super::*;
@@ -48,9 +58,19 @@ mod test {
                 .parse::<RollingStockId>()
                 .unwrap();
             assert_eq!(
-                RollingStockId(Uuid::from_str("3302b9a7-252c-4b41-8de2-eb71efb1888e").unwrap()),
+                RollingStockId(
+                    Uuid::from_str("3302b9a7-252c-4b41-8de2-eb71efb1888e")
+                        .unwrap()
+                ),
                 id
             );
+        }
+
+        #[test]
+        fn it_should_create_new_rolling_stock_id_from_uuid() {
+            let uuid = Uuid::new_v4();
+            let rolling_stock_id: RollingStockId = uuid.into();
+            assert_eq!(uuid, rolling_stock_id.value());
         }
 
         #[test]

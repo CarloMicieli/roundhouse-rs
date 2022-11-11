@@ -1,6 +1,6 @@
 use chrono::NaiveDate;
 
-#[derive(Debug)]
+#[derive(Debug, Eq, PartialEq, Clone)]
 pub struct PeriodOfActivity {
     operating_since: Date,
     operating_until: Option<Date>,
@@ -28,7 +28,10 @@ impl PeriodOfActivity {
         }
     }
 
-    pub fn inactive_railway(operating_since: Date, operating_until: Date) -> Self {
+    pub fn inactive_railway(
+        operating_since: Date,
+        operating_until: Date,
+    ) -> Self {
         PeriodOfActivity {
             operating_since,
             operating_until: Some(operating_until),
@@ -49,7 +52,7 @@ impl PeriodOfActivity {
     }
 }
 
-#[derive(Debug, Eq, PartialEq)]
+#[derive(Debug, Eq, PartialEq, Clone)]
 pub enum Date {
     Year(u32),
     ExactDay(NaiveDate),
@@ -81,7 +84,8 @@ mod test {
 
         #[test]
         fn it_should_create_new_active_periods_of_activity() {
-            let active = PeriodOfActivity::active_railway(Date::with_year(1900));
+            let active =
+                PeriodOfActivity::active_railway(Date::with_year(1900));
             assert_eq!(RailwayStatus::Active, active.status());
             assert_eq!(Date::with_year(1900), active.operating_since);
             assert_eq!(None, active.operating_until());
@@ -90,11 +94,16 @@ mod test {
         #[test]
         fn it_should_create_new_inactive_periods_of_activity() {
             let end_date = NaiveDate::from_ymd(2000, 12, 24);
-            let active =
-                PeriodOfActivity::inactive_railway(Date::with_year(1900), Date::ExactDay(end_date));
+            let active = PeriodOfActivity::inactive_railway(
+                Date::with_year(1900),
+                Date::ExactDay(end_date),
+            );
             assert_eq!(RailwayStatus::Inactive, active.status());
             assert_eq!(&Date::with_year(1900), active.operating_since());
-            assert_eq!(Some(&Date::ExactDay(end_date)), active.operating_until());
+            assert_eq!(
+                Some(&Date::ExactDay(end_date)),
+                active.operating_until()
+            );
         }
     }
 }

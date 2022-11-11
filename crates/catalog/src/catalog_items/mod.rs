@@ -1,4 +1,5 @@
 pub mod catalog_item;
+pub mod catalog_item_id;
 pub mod category;
 pub mod control;
 pub mod delivery_date;

@@ -27,6 +27,14 @@ impl fmt::Display for Slug {
     }
 }
 
+impl std::ops::Deref for Slug {
+    type Target = str;
+
+    fn deref(&self) -> &Self::Target {
+        &self.0
+    }
+}
+
 impl Serialize for Slug {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
     where
@@ -115,15 +123,16 @@ mod tests {
         #[test]
         fn it_should_serialize_to_json() {
             let slug = Slug::new("my slug");
-            let serialized = serde_json::to_string(&slug).expect("error during serialization");
+            let serialized = serde_json::to_string(&slug)
+                .expect("error during serialization");
 
             assert_eq!("\"my-slug\"", serialized);
         }
 
         #[test]
         fn it_should_deserialize_from_json() {
-            let deserialized: Slug =
-                serde_json::from_str("\"my-slug\"").expect("error during deserialization");
+            let deserialized: Slug = serde_json::from_str("\"my-slug\"")
+                .expect("error during deserialization");
             assert_eq!(Slug::new("my-slug"), deserialized);
         }
     }

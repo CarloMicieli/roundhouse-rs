@@ -37,7 +37,8 @@ impl str::FromStr for Epoch {
         }
 
         if s.contains("/") {
-            let tokens: Vec<&str> = s.split_terminator("/").sorted().dedup().collect();
+            let tokens: Vec<&str> =
+                s.split_terminator("/").sorted().dedup().collect();
             if tokens.len() == 2 {
                 let first = Epoch::parse_str(tokens[0])?;
                 let second = Epoch::parse_str(tokens[1])?;
@@ -131,7 +132,8 @@ mod tests {
         #[test]
         #[allow(non_snake_case)]
         fn it_should_diplay_epoch_values() {
-            let epoch_I_II = Epoch::Multiple(Box::new(Epoch::I), Box::new(Epoch::II));
+            let epoch_I_II =
+                Epoch::Multiple(Box::new(Epoch::I), Box::new(Epoch::II));
             let epoch_IVa = Epoch::IVa;
 
             assert_eq!("I/II", epoch_I_II.to_string());

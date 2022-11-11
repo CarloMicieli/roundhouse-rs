@@ -107,7 +107,11 @@ mod tests {
             let now: DateTime<Utc> = Utc::now();
             let id = ScaleId::new("H0");
             let ratio = Ratio::try_from(Decimal::from(87)).unwrap();
-            let gauge = Gauge::new(TrackGauge::Standard, Decimal::from(16), Decimal::from(65)); //TODO: fixme
+            let gauge = Gauge::new(
+                TrackGauge::Standard,
+                Decimal::from(16),
+                Decimal::from(65),
+            ); //TODO: fixme
 
             let scale = Scale::new(
                 id.clone(),
@@ -146,7 +150,11 @@ mod tests {
                 "H0",
                 Some("Scale H0"),
                 Ratio::try_from(Decimal::from(87)).unwrap(),
-                Gauge::new(TrackGauge::Standard, Decimal::from(16), Decimal::from(65)), //TODO: fixme
+                Gauge::new(
+                    TrackGauge::Standard,
+                    Decimal::from(16),
+                    Decimal::from(65),
+                ), //TODO: fixme
                 HashSet::new(),
                 Metadata::created_at(Utc::now()),
             )

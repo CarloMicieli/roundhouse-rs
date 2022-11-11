@@ -8,7 +8,11 @@ pub struct Gauge {
 }
 
 impl Gauge {
-    pub fn new(track_gauge: TrackGauge, millimeters: Decimal, inches: Decimal) -> Self {
+    pub fn new(
+        track_gauge: TrackGauge,
+        millimeters: Decimal,
+        inches: Decimal,
+    ) -> Self {
         Gauge {
             track_gauge,
             millimeters,
@@ -22,7 +26,7 @@ impl Gauge {
 ///
 /// Since many different track gauges exist worldwide, gauge differences often present a barrier to wider operation on
 /// railway networks.
-#[derive(Debug, Eq, PartialEq, Clone)]
+#[derive(Debug, Eq, PartialEq, Clone, Copy)]
 pub enum TrackGauge {
     /// In modern usage, the term "broad gauge" generally refers to track spaced significantly wider than
     /// 1,435 mm (4 ft 8+1⁄2 inches).

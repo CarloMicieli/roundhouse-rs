@@ -64,7 +64,10 @@ impl AddressBuilder {
         self
     }
 
-    pub fn extended_address(mut self, extended_address: &str) -> AddressBuilder {
+    pub fn extended_address(
+        mut self,
+        extended_address: &str,
+    ) -> AddressBuilder {
         self.extended_address = Some(extended_address.to_owned());
         self
     }
@@ -90,12 +93,14 @@ impl AddressBuilder {
     }
 
     pub fn build(self) -> Result<Address, &'static str> {
-        let street_address = self.street_address.ok_or("street address is required")?;
+        let street_address =
+            self.street_address.ok_or("street address is required")?;
         let extended_address = self.extended_address;
         let city = self.city.ok_or("city is required")?;
         let region = self.region;
         let postal_code = self.postal_code.ok_or("postal code is required")?;
-        let country_code = self.country_code.ok_or("country code is required")?;
+        let country_code =
+            self.country_code.ok_or("country code is required")?;
 
         Ok(Address {
             street_address,

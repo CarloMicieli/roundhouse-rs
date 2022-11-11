@@ -1,4 +1,5 @@
 use crate::brands::brand_id::BrandId;
+use crate::catalog_items::catalog_item_id::CatalogItemId;
 use crate::catalog_items::category::Category;
 use crate::catalog_items::delivery_date::DeliveryDate;
 use crate::catalog_items::item_number::ItemNumber;
@@ -13,8 +14,9 @@ use std::fmt::Formatter;
 /// A catalog item, it can contain one or more rolling stock.
 ///
 /// A catalog item is identified by its catalog item number.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct CatalogItem {
+    catalog_item_id: CatalogItemId,
     brand: Brand,
     item_number: ItemNumber,
     category: Category,
@@ -56,6 +58,7 @@ impl PartialOrd for CatalogItem {
 impl CatalogItem {
     /// Creates a new catalog item
     pub fn new(
+        catalog_item_id: CatalogItemId,
         brand: Brand,
         item_number: ItemNumber,
         category: Category,
@@ -69,6 +72,7 @@ impl CatalogItem {
         metadata: Metadata,
     ) -> Self {
         CatalogItem {
+            catalog_item_id,
             brand,
             item_number,
             category,
@@ -81,6 +85,10 @@ impl CatalogItem {
             count,
             metadata,
         }
+    }
+
+    pub fn id(&self) -> &CatalogItemId {
+        &self.catalog_item_id
     }
 
     /// Return the Brand for this catalog item.
@@ -135,7 +143,7 @@ impl CatalogItem {
 }
 
 /// A model railways manufacturer.
-#[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
+#[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone)]
 pub struct Brand {
     brand_id: BrandId,
     name: String,
@@ -167,7 +175,7 @@ impl fmt::Display for Brand {
     }
 }
 
-#[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
+#[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone)]
 pub struct Scale {
     scale_id: ScaleId,
     name: String,
@@ -203,7 +211,7 @@ impl fmt::Display for Scale {
 mod tests {
     use super::*;
 
-    mod brand_tests {
+    mod brands {
         use super::*;
         use pretty_assertions::assert_eq;
 
@@ -221,7 +229,7 @@ mod tests {
         }
     }
 
-    mod scale_tests {
+    mod scales {
         use super::*;
         use pretty_assertions::assert_eq;
 

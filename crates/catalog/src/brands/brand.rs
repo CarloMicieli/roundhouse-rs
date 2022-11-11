@@ -40,7 +40,8 @@ impl Brand {
         Brand {
             brand_id,
             name: String::from(name),
-            registered_company_name: registered_company_name.map(|s| String::from(s)),
+            registered_company_name: registered_company_name
+                .map(|s| String::from(s)),
             group_name: group_name.map(|s| String::from(s)),
             description: description.map(|s| String::from(s)),
             address,
@@ -116,7 +117,9 @@ mod tests {
         use super::*;
         use crate::brands::brand::tests::data::acme;
         use chrono::{DateTime, Utc};
-        use common::contact::{mail_address::MailAddress, website_url::WebsiteUrl};
+        use common::contact::{
+            mail_address::MailAddress, website_url::WebsiteUrl,
+        };
         use isocountry::CountryCode;
         use pretty_assertions::assert_eq;
 
@@ -125,7 +128,7 @@ mod tests {
             let now: DateTime<Utc> = Utc::now();
             let contact_info = ContactInfo::new(
                 Some(MailAddress::new("mail@acmetreni.com")),
-                Some(WebsiteUrl::new("http://www.acmetreni.com").unwrap()),
+                Some(WebsiteUrl::new("http://www.acmetreni.com")),
                 None,
             );
 
@@ -155,7 +158,9 @@ mod tests {
             assert_eq!(BrandId::new("ACME"), brand.brand_id);
             assert_eq!("ACME", brand.name);
             assert_eq!(
-                Some("Associazione Costruzioni Modellistiche Esatte".to_string()),
+                Some(
+                    "Associazione Costruzioni Modellistiche Esatte".to_string()
+                ),
                 brand.registered_company_name
             );
             assert_eq!(None, brand.group_name);
@@ -181,7 +186,9 @@ mod tests {
         use crate::brands::brand_type::BrandType;
         use chrono::{DateTime, Utc};
         use common::address::Address;
-        use common::contact::{mail_address::MailAddress, website_url::WebsiteUrl, ContactInfo};
+        use common::contact::{
+            mail_address::MailAddress, website_url::WebsiteUrl, ContactInfo,
+        };
         use common::metadata::Metadata;
         use isocountry::CountryCode;
 
@@ -189,7 +196,7 @@ mod tests {
             let now: DateTime<Utc> = Utc::now();
             let contact_info = ContactInfo::new(
                 Some(MailAddress::new("mail@acmetreni.com")),
-                Some(WebsiteUrl::new("http://www.acmetreni.com").unwrap()),
+                Some(WebsiteUrl::new("http://www.acmetreni.com")),
                 None,
             );
 

@@ -1,16 +1,16 @@
 use crate::catalog_items::category::{
-    Category, ElectricMultipleUnitType, FreightCarType, LocomotiveType, PassengerCarType,
-    RailcarType,
+    Category, ElectricMultipleUnitType, FreightCarType, LocomotiveType,
+    PassengerCarType, RailcarType,
 };
 use crate::catalog_items::control::{Control, DccInterface};
 use crate::catalog_items::epoch::Epoch;
+use crate::catalog_items::rolling_stock_id::RollingStockId;
 use crate::catalog_items::service_level::ServiceLevel;
 use crate::catalog_items::tech_specs::TechSpecs;
 use crate::railways::railway_id::RailwayId;
 use common::length::Length;
 use std::fmt;
 use std::fmt::{Display, Formatter};
-use uuid::Uuid;
 
 #[derive(Debug, PartialEq, Eq, Clone)]
 pub enum RollingStock {
@@ -39,6 +39,7 @@ pub enum RollingStock {
         category: LocomotiveType,
         depot: Option<String>,
         livery: Option<String>,
+        is_dummy: bool,
         length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
@@ -128,6 +129,7 @@ impl RollingStock {
         category: LocomotiveType,
         depot: Option<&str>,
         livery: Option<&str>,
+        is_dummy: bool,
         length_over_buffer: Option<Length>,
         control: Option<Control>,
         dcc_interface: Option<DccInterface>,
@@ -143,6 +145,7 @@ impl RollingStock {
             category,
             depot: depot.map(str::to_string),
             livery: livery.map(str::to_string),
+            is_dummy,
             length_over_buffer,
             control,
             dcc_interface,
@@ -235,7 +238,9 @@ impl RollingStock {
     /// The category for this rolling stock
     pub fn category(&self) -> Category {
         match self {
-            RollingStock::ElectricMultipleUnit { .. } => Category::ElectricMultipleUnits,
+            RollingStock::ElectricMultipleUnit { .. } => {
+                Category::ElectricMultipleUnits
+            }
             RollingStock::Locomotive { .. } => Category::Locomotives,
             RollingStock::FreightCar { .. } => Category::FreightCars,
             RollingStock::PassengerCar { .. } => Category::PassengerCars,
@@ -243,7 +248,7 @@ impl RollingStock {
         }
     }
 
-    /// The unique identifier for the rolling stock
+    /// The unique identifier for this rolling stock
     pub fn id(&self) -> RollingStockId {
         match self {
             RollingStock::ElectricMultipleUnit { id, .. } => *id,
@@ -254,6 +259,7 @@ impl RollingStock {
         }
     }
 
+    /// Return the epoch for this rolling stock
     pub fn epoch(&self) -> &Epoch {
         match self {
             RollingStock::ElectricMultipleUnit { epoch, .. } => &epoch,
@@ -264,10 +270,12 @@ impl RollingStock {
         }
     }
 
-    /// The livery for this rolling stock
+    /// Return the livery for this rolling stock
     pub fn livery(&self) -> Option<&str> {
         match self {
-            RollingStock::ElectricMultipleUnit { livery, .. } => livery.as_deref(),
+            RollingStock::ElectricMultipleUnit { livery, .. } => {
+                livery.as_deref()
+            }
             RollingStock::Locomotive { livery, .. } => livery.as_deref(),
             RollingStock::FreightCar { livery, .. } => livery.as_deref(),
             RollingStock::PassengerCar { livery, .. } => livery.as_deref(),
@@ -275,6 +283,7 @@ impl RollingStock {
         }
     }
 
+    /// Return the overall length for this rolling stock
     pub fn length_over_buffer(&self) -> Option<&Length> {
         match self {
             RollingStock::ElectricMultipleUnit {
@@ -307,21 +316,49 @@ impl RollingStock {
 
     pub fn road_number(&self) -> Option<&str> {
         match self {
-            RollingStock::ElectricMultipleUnit { road_number, .. } => road_number.as_deref(),
+            RollingStock::ElectricMultipleUnit { road_number, .. } => {
+                road_number.as_deref()
+            }
             RollingStock::Locomotive { road_number, .. } => Some(road_number),
-            RollingStock::FreightCar { road_number, .. } => road_number.as_deref(),
-            RollingStock::PassengerCar { road_number, .. } => road_number.as_deref(),
+            RollingStock::FreightCar { road_number, .. } => {
+                road_number.as_deref()
+            }
+            RollingStock::PassengerCar { road_number, .. } => {
+                road_number.as_deref()
+            }
             RollingStock::Railcar { road_number, .. } => road_number.as_deref(),
         }
     }
 
     pub fn tech_specs(&self) -> Option<&TechSpecs> {
         match self {
-            RollingStock::ElectricMultipleUnit { tech_specs, .. } => tech_specs.as_ref(),
+            RollingStock::ElectricMultipleUnit { tech_specs, .. } => {
+                tech_specs.as_ref()
+            }
             RollingStock::Locomotive { tech_specs, .. } => tech_specs.as_ref(),
             RollingStock::FreightCar { tech_specs, .. } => tech_specs.as_ref(),
-            RollingStock::PassengerCar { tech_specs, .. } => tech_specs.as_ref(),
+            RollingStock::PassengerCar { tech_specs, .. } => {
+                tech_specs.as_ref()
+            }
             RollingStock::Railcar { tech_specs, .. } => tech_specs.as_ref(),
+        }
+    }
+
+    pub fn control(&self) -> Option<Control> {
+        match self {
+            RollingStock::ElectricMultipleUnit {
+                control: Some(control),
+                ..
+            } => Some(*control),
+            RollingStock::Locomotive {
+                control: Some(control),
+                ..
+            } => Some(*control),
+            RollingStock::Railcar {
+                control: Some(control),
+                ..
+            } => Some(*control),
+            _ => None,
         }
     }
 
@@ -388,24 +425,64 @@ impl Railway {
     }
 }
 
-impl fmt::Display for Railway {
+impl Display for Railway {
     fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
         write!(f, "{}", &self.name)
     }
 }
 
-#[derive(Debug, Eq, PartialEq, Copy, Clone)]
-pub struct RollingStockId(Uuid);
+#[cfg(test)]
+mod test {
+    use super::*;
 
-impl RollingStockId {
-    pub fn new() -> Self {
-        let id = Uuid::new_v4();
-        RollingStockId(id)
-    }
-}
+    mod locomotives {
+        use super::*;
+        use crate::catalog_items::rolling_stock_id::RollingStockId;
+        use crate::catalog_items::tech_specs::TechSpecsBuilder;
+        use crate::catalog_items::tech_specs::{Coupling, Radius};
+        use common::measure_units::MeasureUnit;
+        use pretty_assertions::assert_eq;
 
-impl Display for RollingStockId {
-    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
-        write!(f, "{}", self.0)
+        #[test]
+        fn it_should_create_new_locomotives() {
+            let id = RollingStockId::new();
+            let length =
+                Length::new(210_f32, MeasureUnit::Millimeters).unwrap();
+            let fs = Railway::new(RailwayId::new("fs"), "FS");
+
+            let tech_specs = TechSpecsBuilder::default()
+                .coupling(Coupling::Nem362)
+                .minimum_radius(Some(Radius::new(360_f32).unwrap()))
+                .build()
+                .unwrap();
+
+            let locomotive = RollingStock::new_locomotive(
+                id,
+                "E.656",
+                "E.656 077",
+                Some("I serie"),
+                fs.clone(),
+                Epoch::IV,
+                LocomotiveType::ElectricLocomotive,
+                Some("Milano Centrale"),
+                Some("blu/grigio"),
+                false,
+                Some(length),
+                Some(Control::DccReady),
+                Some(DccInterface::Nem652),
+                Some(tech_specs.clone()),
+            );
+
+            assert_eq!(id, locomotive.id());
+            assert_eq!(Category::Locomotives, locomotive.category());
+            assert_eq!(&Epoch::IV, locomotive.epoch());
+            assert_eq!(Some("blu/grigio"), locomotive.livery());
+            assert_eq!(Some(&length), locomotive.length_over_buffer());
+            assert_eq!(&fs, locomotive.railway());
+            assert_eq!(Some("E.656 077"), locomotive.road_number());
+            assert_eq!(Some(DccInterface::Nem652), locomotive.dcc_interface());
+            assert_eq!(Some(Control::DccReady), locomotive.control());
+            assert_eq!(Some(&tech_specs), locomotive.tech_specs());
+        }
     }
 }

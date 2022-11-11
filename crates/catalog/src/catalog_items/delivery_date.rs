@@ -6,7 +6,7 @@ use thiserror::Error;
 pub type Quarter = u8;
 pub type Year = i32;
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, PartialEq, Eq, Clone)]
 pub enum DeliveryDate {
     ByYear(Year),
     ByQuarter(Year, Quarter),
